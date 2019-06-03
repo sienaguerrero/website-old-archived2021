@@ -1,12 +1,16 @@
 ---
 layout: page
 title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+meta_title: "Contact"
+subheadline: ""
+teaser: ""
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
+**Currently looking for software internsips for Fall 2019, Spring 2019, or Summer 2020.**
+
+I desire a career in technology with an organization that shares my passion for powerful, efficient, and elegant design.
+
+Check out my resume and <a href = "mailto: sienaguerrero@gmail.com">send me an email</a> for inquiries.
 
  [1]: http://www.wufoo.com/

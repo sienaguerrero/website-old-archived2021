@@ -1,27 +1,37 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/sienaguerrero
   class: icon-github
-  title: Code und mehr...
+  title: ""
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+- name: Instagram
+  url: http://instagram.com/siena.guerrero
+  class: icon-instagram
+  title: ""
+
+- name: LinkedIn
+  url: http://linkedin.com/in/sienaguerrero
+  class: icon-linkedin
+  title: ""
 
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: http://twitter.com/sienaguerrero
   class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: ""
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- # name: YouTube
+  # url: http://www.youtube.com/PhlowMedia
+  # class: icon-youtube
+  # title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
-  class: icon-googleplus
-  title: "YouTube Google+"
+- # name: Mixcloud
+  # url: http://www.mixcloud.com/phlow/
+  # class: icon-cloud
+  # title: "Mixe, was sonst?"
+
+- # name: Phlow YouTube Google+
+  # url: https://plus.google.com/u/0/+Phlow
+  # class: icon-googleplus
+  # title: "YouTube Google+"
 
 # - name: Facebook
 #   url: http://www.facebook.com/
@@ -31,11 +41,6 @@
 # - name: Soundcloud
 #   url: http://soundcloud.com/
 #   class: icon-soundcloud
-#   title: ""
-
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
 #   title: ""
 
 # - name: Pinterest
