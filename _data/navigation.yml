@@ -1,75 +1,40 @@
-- title: Start
+- title: Siena Guerrero
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
+- title: My Story
+  url: "/my-story/"
+  side: right
 
-- title: "Templates"
-  url: "/design/"
-  side: left
-  dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+- title: "My Projects"
+  url: "/my-projects/"
+  side: right
+  # dropdown:
+  # - title: "All Projects"
+    #url: "/projects/all/"
+  #- title: "Groover Music App"
+    #url: "/projects/groover/"
 
-- title: "Header Styles"
-  url: "/headers/"
-  side: left
+- title: "Downloads"
+  url: ""
+  side: right
   dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
+  - title: "My Resumé"
+    url: /assets/SienaGuerrero_Resume.pdf
 
-- title: Documentation
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+- title: Articles
+  url: "/articles/"
+  side: right
 
 - title: Blog
   url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
-
-- title: "Search"
-  url: "/search/"
   side: right
 
 - title: "Contact"
   url: "/contact/"
   side: right
+
+- # title: "Search"
+  # url: "/search/"
+  # side: right
+

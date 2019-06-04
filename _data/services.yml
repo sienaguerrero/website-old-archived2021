@@ -1,16 +1,20 @@
 - menu_name: "Services"
 
-- name: "Contact"
+- name: "Contact Me"
   url: "/contact/"
   title: "Contact"
 
-- name: "RSS"
-  url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+- name: "My Resumé"
+  url: "/assets/SienaGuerrero_Resume.pdf"
+  title: "Resumé"
 
-- name: "Atom"
-  url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+# - name: "RSS"
+#  url: "/feed.xml"
+#  title: "Subscribe to RSS Feed"
+
+# - name: "Atom"
+#   url: "/atom.xml"
+#   title: "Subscribe to Atom Feed"
 
 - name: "sitemap.xml"
   url: "/sitemap.xml"

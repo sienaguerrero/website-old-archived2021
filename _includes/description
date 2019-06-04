@@ -1,0 +1,18 @@
+{% comment %}
+*
+*   This include lets you easily embed a description into your post.
+*   To use the description box you need to include...
+
+*   description:
+*       - text: Lorem ipsum
+*
+*   Add the include whereever you want in your content like this:
+*
+*   {% include description %}
+*
+{% endcomment %}
+<div>
+	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
+		{% if include.description.text != empty %}<p>{{ include.description.text }}</p>{% endif %}
+	</ul>
+</div>
