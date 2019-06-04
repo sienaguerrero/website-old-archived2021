@@ -1,4 +1,4 @@
-- title: Siena Maria Guerrero
+- title: Siena Guerrero
   url: "/"
   side: left
 
@@ -15,24 +15,16 @@
   #- title: "Groover Music App"
     #url: "/projects/groover/"
 
-- title: "My Resumé"
-  url: "/assets/SienaGuerrero_Resume.pdf"
+- title: "Downloads"
+  url: ""
   side: right
-
-
-- #title: "Downloads"
-  #url: "/downloads/"
-  #side: right
-  #dropdown:
-  #- title: "My Resumé"
-  #  url: /assets/SienaGuerrero_Resume.pdf
+  dropdown:
+  - title: "My Resumé"
+    url: /assets/SienaGuerrero_Resume.pdf
 
 - title: Articles
   url: "/articles/"
   side: right
-  dropdown:
-  - title: "Programming"
-    url: "/articles/programming/"
 
 - title: Blog
   url: "/blog/"

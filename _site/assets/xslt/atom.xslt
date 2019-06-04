@@ -155,41 +155,35 @@
           
             
             
-              <li class="divider"></li>
-              <li><a  href="http://localhost:4000/assets/SienaGuerrero_Resume.pdf">My Resumé</a></li>
-
-            
-            
-          
-        
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
-            
-            
 
               <li class="divider"></li>
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/articles/">Articles</a>
+                <a  href="http://localhost:4000">Downloads</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="http://localhost:4000/articles/programming/">Programming</a></li>
+                      <li><a  href="http://localhost:4000/assets/SienaGuerrero_Resume.pdf">My Resumé</a></li>
                     
                   </ul>
 
               </li>
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/articles/">Articles</a></li>
+
+            
             
           
         
@@ -240,17 +234,11 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Siena Maria Guerrero</a></li>
+              <li><a  href="http://localhost:4000/">Siena Guerrero</a></li>
               <li class="divider"></li>
 
             
             
-          
-        
-
-              
-
-          
           
         
 
@@ -306,9 +294,9 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/" title="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
+			<!-- <a id="logo" href="http://localhost:4000/" title="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
 				<img src="http://localhost:4000/assets/img/logo.png" alt="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
-			</a>
+			</a> -->
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
@@ -384,11 +372,11 @@
             <h5 class="shadow-black">About This Site</h5>
 
             <p class="shadow-black">
-              Personal website for Siena Guerrero.
-              <a href="http://localhost:4000/info/">More ›</a>
+              Personal website for Siena Guerrero. <br>
+              <a href="http://localhost:4000/my-story/">More about me...</a> <br>
+              <a href='https://ko-fi.com/S6S8WFPN'>Support Me on Ko-fi</a>
             </p>
           </div><!-- /.large-6.columns -->
-
 
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             
@@ -412,12 +400,12 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact Me</a>
                   </li>
               
                 
                   <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact</a>
+                    <a href="http://localhost:4000/assets/SienaGuerrero_Resume.pdf"  title="Resumé">My Resumé</a>
                   </li>
               
                 
@@ -433,8 +421,6 @@
             
               
                 <h5 class="shadow-black">Many thanks to...</h5>
-              
-            
               
             
               
@@ -459,11 +445,6 @@
               
                 <li class="services-newsletter" >
                   <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
-                </li>
-            
-              
-                <li class="rss-link" >
-                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
                 </li>
             
               

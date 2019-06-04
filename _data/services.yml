@@ -1,12 +1,12 @@
 - menu_name: "Services"
 
-- name: "Contact"
+- name: "Contact Me"
   url: "/contact/"
   title: "Contact"
 
-- name: "Contact"
-  url: "/contact/"
-  title: "Contact"
+- name: "My Resumé"
+  url: "/assets/SienaGuerrero_Resume.pdf"
+  title: "Resumé"
 
 # - name: "RSS"
 #  url: "/feed.xml"
