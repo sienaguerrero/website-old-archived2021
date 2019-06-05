@@ -4,7 +4,7 @@ title: "My Projects"
 subheadline: "Digital Designer, Tinkerer, and Lover of Coding"
 header:
     title: My Projects
-    image_fullwidth: "/headers/header_ecuador.jpg"
+    image_fullwidth: "/headers/header_purple-flower.jpg"
 ---
 This page contains information and demos for my various projects.
 

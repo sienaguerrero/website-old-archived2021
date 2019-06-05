@@ -142,6 +142,20 @@
             
             
               <li class="divider"></li>
+              <li><a  href="http://localhost:4000/my-accomplishments/">My Accomplishments</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
               <li><a  href="http://localhost:4000/my-projects/">My Projects</a></li>
 
             
@@ -239,6 +253,12 @@
 
             
             
+          
+        
+
+              
+
+          
           
         
 

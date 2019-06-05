@@ -7,7 +7,7 @@ teaser: ""
 permalink: "/contact/"
 header:
     title: Contact
-    image_fullwidth: "/headers/header_purple-flower.jpg"
+    image_fullwidth: "/headers/header_pier.jpg"
 ---
 
 **Currently looking for software internships for Fall 2019, Spring 2019, or Summer 2020.**
