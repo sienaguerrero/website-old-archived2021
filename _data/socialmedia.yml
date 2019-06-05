@@ -1,11 +1,11 @@
+-  name: Email
+   url: mailto:sienaguerrero@gmail.com
+   class: icon-mail
+   title: ""
+
 - name: GitHub
   url: http://github.com/sienaguerrero
   class: icon-github
-  title: ""
-
-- name: Instagram
-  url: http://instagram.com/siena.guerrero
-  class: icon-instagram
   title: ""
 
 - name: LinkedIn
@@ -13,15 +13,15 @@
   class: icon-linkedin
   title: ""
 
+- name: Instagram
+  url: http://instagram.com/siena.guerrero
+  class: icon-instagram
+  title: ""
+
 - name: Twitter
   url: http://twitter.com/sienaguerrero
   class: icon-twitter
   title: ""
-
-- # name: YouTube
-  # url: http://www.youtube.com/PhlowMedia
-  # class: icon-youtube
-  # title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
 - # name: Mixcloud
   # url: http://www.mixcloud.com/phlow/

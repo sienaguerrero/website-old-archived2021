@@ -142,6 +142,20 @@
             
             
               <li class="divider"></li>
+              <li><a  href="http://localhost:4000/my-accomplishments/">My Accomplishments</a></li>
+
+            
+            
+          
+        
+
+              
+
+          
+          
+            
+            
+              <li class="divider"></li>
               <li><a  href="http://localhost:4000/my-projects/">My Projects</a></li>
 
             
@@ -239,6 +253,12 @@
 
             
             
+          
+        
+
+              
+
+          
           
         
 
@@ -468,15 +488,15 @@
           <section id="subfooter-right" class="small-12 medium-6 columns">
             <ul class="inline-list social-icons">
             
-              <li><a href="http://github.com/sienaguerrero" target="_blank" class="icon-github" title=""></a></li>
+              <li><a href="mailto:sienaguerrero@gmail.com" target="_blank" class="icon-mail" title=""></a></li>
             
-              <li><a href="http://instagram.com/siena.guerrero" target="_blank" class="icon-instagram" title=""></a></li>
+              <li><a href="http://github.com/sienaguerrero" target="_blank" class="icon-github" title=""></a></li>
             
               <li><a href="http://linkedin.com/in/sienaguerrero" target="_blank" class="icon-linkedin" title=""></a></li>
             
-              <li><a href="http://twitter.com/sienaguerrero" target="_blank" class="icon-twitter" title=""></a></li>
+              <li><a href="http://instagram.com/siena.guerrero" target="_blank" class="icon-instagram" title=""></a></li>
             
-              <li><a href="" target="_blank" class="" title=""></a></li>
+              <li><a href="http://twitter.com/sienaguerrero" target="_blank" class="icon-twitter" title=""></a></li>
             
               <li><a href="" target="_blank" class="" title=""></a></li>
             

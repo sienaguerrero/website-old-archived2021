@@ -6,6 +6,10 @@
   url: "/my-story/"
   side: right
 
+- title: My Accomplishments
+  url: "/my-accomplishments/"
+  side: right
+
 - title: "My Projects"
   url: "/my-projects/"
   side: right
