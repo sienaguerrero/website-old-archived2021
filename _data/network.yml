@@ -1,5 +1,10 @@
 - menu_name: "Many thanks to..."
 
+- name: "Favicons by Teresa Ibarra"
+  url: "http://teresaibarra.github.io/"
+  class: "network-favicon"
+  title: "Favicons by Teresa Ibarra"
+
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"
   class: "network-entypo"
