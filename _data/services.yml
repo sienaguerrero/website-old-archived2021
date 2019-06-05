@@ -4,9 +4,9 @@
   url: "/contact/"
   title: "Contact"
 
-- name: "My Resumé"
+- name: "Download My Resumé"
   url: "/assets/SienaGuerrero_Resume.pdf"
-  title: "Resumé"
+  title: "Resume"
 
 # - name: "RSS"
 #  url: "/feed.xml"

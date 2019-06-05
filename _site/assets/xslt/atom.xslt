@@ -31,7 +31,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Personal website for Siena Guerrero.">
+	<meta name="description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
 	
 	
 	
@@ -43,7 +43,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
-	<meta property="og:description" content="Personal website for Siena Guerrero.">
+	<meta property="og:description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
 	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -58,7 +58,7 @@
 	<meta name="twitter:site" content="sienaguerrero">
 	<meta name="twitter:creator" content="sienaguerrero">
 	<meta name="twitter:title" content="Atom Feed (Styled)">
-	<meta name="twitter:description" content="Personal website for Siena Guerrero.">
+	<meta name="twitter:description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
 	
 	
 
@@ -315,7 +315,7 @@
 	<div class="row">
 		<div class="small-12 columns">
 			<!-- <a id="logo" href="http://localhost:4000/" title="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
-				<img src="http://localhost:4000/assets/img/logo.png" alt="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
+				<img src="http://localhost:4000/assets/img/" alt="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
 			</a> -->
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -392,9 +392,10 @@
             <h5 class="shadow-black">About This Site</h5>
 
             <p class="shadow-black">
-              Personal website for Siena Guerrero. <br>
-              <a href="http://localhost:4000/my-story/">More about me...</a> <br>
-              <a href='https://ko-fi.com/S6S8WFPN'>Support Me on Ko-fi</a>
+              Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College. <br>
+              <a href="http://localhost:4000/my-story/">Learn more about my story.</a> <br>
+              <a href='https://ko-fi.com/S6S8WFPN'>Support Me on Ko-fi</a> <br>
+              Hosted on Bluehost, maintained on Github.
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -425,7 +426,7 @@
               
                 
                   <li >
-                    <a href="http://localhost:4000/assets/SienaGuerrero_Resume.pdf"  title="Resumé">My Resumé</a>
+                    <a href="http://localhost:4000/assets/SienaGuerrero_Resume.pdf"  title="Resume">Download My Resumé</a>
                   </li>
               
                 
@@ -449,12 +450,19 @@
             
               
             
+              
+            
 
             <ul class="no-bullet shadow-black">
             
               
                 <li >
                   <a href="http://localhost:4000"  title=""></a>
+                </li>
+            
+              
+                <li class="network-favicon" >
+                  <a href="http://teresaibarra.github.io/" target="_blank"  title="Favicons by Teresa Ibarra">Favicons by Teresa Ibarra</a>
                 </li>
             
               
