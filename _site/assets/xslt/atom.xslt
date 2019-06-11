@@ -49,17 +49,9 @@
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Siena Maria Guerrero">
 	
-	<meta property="article:author" content="https://www.facebook.com/sienaguerrero">
+	
 
 
-	
-	<!-- Twitter -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="sienaguerrero">
-	<meta name="twitter:creator" content="sienaguerrero">
-	<meta name="twitter:title" content="Atom Feed (Styled)">
-	<meta name="twitter:description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
-	
 	
 
 	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
