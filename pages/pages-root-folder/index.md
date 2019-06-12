@@ -25,7 +25,7 @@ widget3:
   title: "Contact Me"
   url: 'http://sienaguerrero.github.io/website/contact/'
   image: /widgets/img_siena+ruby-petrified-forest.jpg
-  text: 'Currently looking for software internships in Fall 2019 or Summer 2020.'
+  text: 'Currently looking for software internships in Fall 2019, Spring 2020, or Summer 2020.'
 #
 # Use the call for action to show a button on the frontpage
 #

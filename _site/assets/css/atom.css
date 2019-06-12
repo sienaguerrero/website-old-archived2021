@@ -12,9 +12,20 @@
 */
 /* Basics
 ------------------------------------------------------------------- */
-/* Corporate Identity Colorpalette
+/* 'Coral and Teal' Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
+/* Color Theme Swatches in Hex */
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- 
+$ci-1: #334D5C;		// dark turquoise
+$ci-2: #45B29D;		// turquoise
+$ci-3: #EFC94C;		// yellow
+$ci-4: #E27A3F;		// orange
+$ci-5: #DF4949;		// red
+$ci-6: #A1D044;     // green
+*/
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 /* Grey Scale
@@ -145,7 +156,7 @@ meta.foundation-data-attribute-namespace {
 /* line 23 */
 feed > title {
   text-align: center;
-  color: #6590aa;
+  color: #e4f6f4;
   font-family: "Volkhov", Georgia, Times, serif;
   font-size: 3.6615em;
   font-weight: bolder;
@@ -160,7 +171,7 @@ feed > title::after {
   content: "This Atom feed is meant to be used by RSS reader applications and websites.";
   display: block;
   padding: 1em;
-  background-color: #DF4949;
+  background-color: #F7B7B7;
   color: #fff;
   font-family: initial;
   font-size: initial;
@@ -187,7 +198,7 @@ entry:last-child {
 }
 /* line 62 */
 entry > title {
-  color: #A1D044;
+  color: #85D6CB;
   font-family: "Volkhov", Georgia, Times, serif;
   font-size: 2.441em;
   margin-bottom: 0.5em;
@@ -195,7 +206,7 @@ entry > title {
 /* line 69 */
 entry > link::after {
   content: attr(href);
-  color: #334D5C;
+  color: #85D6CB;
 }
 /* line 74 */
 entry > updated {
