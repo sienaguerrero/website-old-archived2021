@@ -22,28 +22,40 @@ $body-bg: 			#fdfdfd;
 
 
 
-/* Corporate Identity Colorpalette
+/* 'Coral and Teal' Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
+/* Color Theme Swatches in Hex */
+$Coral-and-Teal-1-hex: #85D6CB;
+$Coral-and-Teal-2-hex: #ABE0D4;
+$Coral-and-Teal-3-hex: #F77B77;
+$Coral-and-Teal-4-hex: #FF8D87;
+$Coral-and-Teal-5-hex: #F7B7B7;
+$Coral-and-Teal-6-hex: #85D6CB;
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- 
 $ci-1: #334D5C;		// dark turquoise
 $ci-2: #45B29D;		// turquoise
 $ci-3: #EFC94C;		// yellow
 $ci-4: #E27A3F;		// orange
 $ci-5: #DF4949;		// red
 $ci-6: #A1D044;     // green
+*/
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $ci-1;
-$secondary-color: $ci-6;
-$alert-color: $ci-5;
-$success-color: $ci-6;
-$warning-color: $ci-4;
-$info-color: $ci-1;
+$primary-color: $Coral-and-Teal-1-hex;
+$secondary-color: $Coral-and-Teal-6-hex;
+$alert-color: $Coral-and-Teal-5-hex;
+$success-color: $Coral-and-Teal-6-hex;
+$warning-color: $Coral-and-Teal-4-hex;
+$info-color: $Coral-and-Teal-1-hex;
 
 
 
@@ -76,31 +88,31 @@ $topbar-bg-color: $body-bg;
 $topbar-bg: $topbar-bg-color;
 
 
-$topbar-dropdown-toggle-color: $ci-1;
+$topbar-dropdown-toggle-color: $Coral-and-Teal-1-hex;
 
 $topbar-link-color: #000;
 $topbar-link-color-hover: #000;
 $topbar-link-color-active: #000;
 $topbar-link-color-active-hover: #000;
 
-$topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-6;
+$topbar-dropdown-label-color: $Coral-and-Teal-2-hex;
+$topbar-dropdown-link-bg-hover: $Coral-and-Teal-6-hex;
 
-$topbar-link-bg-active: $ci-6; // Active Navigation Link
-$topbar-link-bg-hover: $ci-6;
-$topbar-link-bg-active-hover: $ci-2;
+$topbar-link-bg-active: $Coral-and-Teal-6-hex; // Active Navigation Link
+$topbar-link-bg-hover: $Coral-and-Teal-6-hex;
+$topbar-link-bg-active-hover: $Coral-and-Teal-2-hex;
 
 
-$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
+$topbar-dropdown-bg: $Coral-and-Teal-6-hex; // Background Mobile Navigation
 $topbar-dropdown-link-color: #000;
-$topbar-dropdown-link-bg: $ci-2;
+$topbar-dropdown-link-bg: $Coral-and-Teal-2-hex;
 
-$topbar-menu-link-color-toggled: $ci-1;
-$topbar-menu-icon-color-toggled: $ci-1;
+$topbar-menu-link-color-toggled: $Coral-and-Teal-1-hex;
+$topbar-menu-icon-color-toggled: $Coral-and-Teal-1-hex;
 $topbar-menu-link-color: #000;
 $topbar-menu-icon-color: #000;
-$topbar-menu-link-color-toggled: $ci-6;
-$topbar-menu-icon-color-toggled: $ci-6;
+$topbar-menu-link-color-toggled: $Coral-and-Teal-6-hex;
+$topbar-menu-icon-color-toggled: $Coral-and-Teal-6-hex;
 
 
 
@@ -109,7 +121,7 @@ $topbar-menu-icon-color-toggled: $ci-6;
 
 $footer-bg: $grey-8;
 $footer-color: #fff;
-$footer-link-color: $ci-6;
+$footer-link-color: $Coral-and-Teal-6-hex;
 
 
 $subfooter-bg: $grey-13;

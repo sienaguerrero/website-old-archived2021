@@ -12,9 +12,20 @@
 */
 /* Basics
 ------------------------------------------------------------------- */
-/* Corporate Identity Colorpalette
+/* 'Coral and Teal' Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
+/* Color Theme Swatches in Hex */
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- 
+$ci-1: #334D5C;		// dark turquoise
+$ci-2: #45B29D;		// turquoise
+$ci-3: #EFC94C;		// yellow
+$ci-4: #E27A3F;		// orange
+$ci-5: #DF4949;		// red
+$ci-6: #A1D044;     // green
+*/
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 /* Grey Scale
@@ -2199,14 +2210,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #334D5C;
-  border-color: #293e4a;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #293e4a;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -2214,13 +2225,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 223, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2228,13 +2239,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 224, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.success, .button.success {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
@@ -2242,13 +2253,13 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 /* line 225, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.alert, .button.alert {
-  background-color: #DF4949;
-  border-color: #c92323;
-  color: #FFFFFF;
+  background-color: #F7B7B7;
+  border-color: #ee6a6a;
+  color: #333333;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-  background-color: #c92323;
+  background-color: #ee6a6a;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -2256,13 +2267,13 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 }
 /* line 226, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.warning, .button.warning {
-  background-color: #E27A3F;
-  border-color: #c95c1e;
-  color: #FFFFFF;
+  background-color: #FF8D87;
+  border-color: #ff4339;
+  color: #333333;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
-  background-color: #c95c1e;
+  background-color: #ff4339;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
@@ -2270,13 +2281,13 @@ button.warning:hover, button.warning:focus, .button.warning:hover, .button.warni
 }
 /* line 227, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.info, .button.info {
-  background-color: #334D5C;
-  border-color: #293e4a;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
-  background-color: #293e4a;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
@@ -2332,8 +2343,8 @@ button.round, .button.round {
 }
 /* line 240, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #334D5C;
-  border-color: #293e4a;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2341,7 +2352,7 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #293e4a;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2349,12 +2360,12 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 178, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #334D5C;
+  background-color: #85D6CB;
 }
 /* line 241, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2362,7 +2373,7 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -2370,12 +2381,12 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 178, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #A1D044;
+  background-color: #85D6CB;
 }
 /* line 242, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2383,7 +2394,7 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .bu
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -2391,20 +2402,20 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 178, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #A1D044;
+  background-color: #85D6CB;
 }
 /* line 243, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-  background-color: #DF4949;
-  border-color: #c92323;
-  color: #FFFFFF;
+  background-color: #F7B7B7;
+  border-color: #ee6a6a;
+  color: #333333;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #c92323;
+  background-color: #ee6a6a;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -2412,20 +2423,20 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 /* line 178, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #DF4949;
+  background-color: #F7B7B7;
 }
 /* line 244, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.warning, button[disabled].warning, .button.disabled.warning, .button[disabled].warning {
-  background-color: #E27A3F;
-  border-color: #c95c1e;
-  color: #FFFFFF;
+  background-color: #FF8D87;
+  border-color: #ff4339;
+  color: #333333;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
-  background-color: #c95c1e;
+  background-color: #ff4339;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
@@ -2433,12 +2444,12 @@ button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].w
 }
 /* line 178, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
-  background-color: #E27A3F;
+  background-color: #FF8D87;
 }
 /* line 245, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.info, button[disabled].info, .button.disabled.info, .button[disabled].info {
-  background-color: #334D5C;
-  border-color: #293e4a;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2446,7 +2457,7 @@ button.disabled.info, button[disabled].info, .button.disabled.info, .button[disa
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
-  background-color: #293e4a;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
@@ -2454,7 +2465,7 @@ button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:ho
 }
 /* line 178, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
-  background-color: #334D5C;
+  background-color: #85D6CB;
 }
 
 /* line 250, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
@@ -2861,8 +2872,8 @@ fieldset legend {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #DF4949;
-  color: #FFFFFF;
+  background: #F7B7B7;
+  color: #333333;
 }
 /* line 517, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_forms.scss */
 [data-abide] span.error, [data-abide] small.error {
@@ -2878,8 +2889,8 @@ span.error, small.error {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #DF4949;
-  color: #FFFFFF;
+  background: #F7B7B7;
+  color: #333333;
 }
 
 /* line 525, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_forms.scss */
@@ -2896,7 +2907,7 @@ span.error, small.error {
 /* line 536, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_forms.scss */
 .error label,
 .error label.error {
-  color: #DF4949;
+  color: #F7B7B7;
 }
 /* line 541, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_forms.scss */
 .error small.error {
@@ -2907,8 +2918,8 @@ span.error, small.error {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #DF4949;
-  color: #FFFFFF;
+  background: #F7B7B7;
+  color: #333333;
 }
 /* line 546, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_forms.scss */
 .error > label > small {
@@ -2935,7 +2946,7 @@ select.error {
 
 /* line 568, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_forms.scss */
 label.error {
-  color: #DF4949;
+  color: #F7B7B7;
 }
 
 /* line 112, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
@@ -3109,11 +3120,11 @@ meta.foundation-mq-topbar {
 }
 /* line 277, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
-  color: #A1D044;
+  color: #85D6CB;
 }
 /* line 278, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span::after {
-  box-shadow: 0 0 0 1px #A1D044, 0 7px 0 1px #A1D044, 0 14px 0 1px #A1D044;
+  box-shadow: 0 0 0 1px #85D6CB, 0 7px 0 1px #85D6CB, 0 14px 0 1px #85D6CB;
 }
 
 /* line 291, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
@@ -3142,7 +3153,7 @@ meta.foundation-mq-topbar {
 }
 /* line 314, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li {
-  background: #A1D044;
+  background: #85D6CB;
 }
 /* line 316, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -3161,13 +3172,13 @@ meta.foundation-mq-topbar {
   font-size: 0.9375rem;
   padding-right: 1.0416666667rem;
   padding-left: 1.0416666667rem;
-  background-color: #334D5C;
-  border-color: #293e4a;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-  background-color: #293e4a;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -3175,13 +3186,13 @@ meta.foundation-mq-topbar {
 }
 /* line 333, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
@@ -3189,13 +3200,13 @@ meta.foundation-mq-topbar {
 }
 /* line 334, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
@@ -3203,13 +3214,13 @@ meta.foundation-mq-topbar {
 }
 /* line 335, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
-  background-color: #DF4949;
-  border-color: #c92323;
-  color: #FFFFFF;
+  background-color: #F7B7B7;
+  border-color: #ee6a6a;
+  color: #333333;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
-  background-color: #c92323;
+  background-color: #ee6a6a;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
@@ -3217,13 +3228,13 @@ meta.foundation-mq-topbar {
 }
 /* line 336, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > a.button.warning {
-  background-color: #E27A3F;
-  border-color: #c95c1e;
-  color: #FFFFFF;
+  background-color: #FF8D87;
+  border-color: #ff4339;
+  color: #333333;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
-  background-color: #c95c1e;
+  background-color: #ff4339;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
@@ -3234,13 +3245,13 @@ meta.foundation-mq-topbar {
   font-size: 0.9375rem;
   padding-right: 1.0416666667rem;
   padding-left: 1.0416666667rem;
-  background-color: #334D5C;
-  border-color: #293e4a;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-  background-color: #293e4a;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -3248,13 +3259,13 @@ meta.foundation-mq-topbar {
 }
 /* line 345, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > button.secondary {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
@@ -3262,13 +3273,13 @@ meta.foundation-mq-topbar {
 }
 /* line 346, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > button.success {
-  background-color: #A1D044;
-  border-color: #84b02c;
+  background-color: #85D6CB;
+  border-color: #51c5b5;
   color: #FFFFFF;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
-  background-color: #84b02c;
+  background-color: #51c5b5;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
@@ -3276,13 +3287,13 @@ meta.foundation-mq-topbar {
 }
 /* line 347, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > button.alert {
-  background-color: #DF4949;
-  border-color: #c92323;
-  color: #FFFFFF;
+  background-color: #F7B7B7;
+  border-color: #ee6a6a;
+  color: #333333;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
-  background-color: #c92323;
+  background-color: #ee6a6a;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
@@ -3290,13 +3301,13 @@ meta.foundation-mq-topbar {
 }
 /* line 348, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li > button.warning {
-  background-color: #E27A3F;
-  border-color: #c95c1e;
-  color: #FFFFFF;
+  background-color: #FF8D87;
+  border-color: #ff4339;
+  color: #333333;
 }
 /* line 161, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
-  background-color: #c95c1e;
+  background-color: #ff4339;
 }
 /* line 167, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_buttons.scss */
 .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
@@ -3305,17 +3316,17 @@ meta.foundation-mq-topbar {
 /* line 352, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
   background-color: #555555;
-  background: #A1D044;
+  background: #85D6CB;
   color: #000;
 }
 /* line 361, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #A1D044;
+  background: #85D6CB;
   color: #000;
 }
 /* line 364, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #45B29D;
+  background: #ABE0D4;
   color: #000;
 }
 /* line 372, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
@@ -3333,7 +3344,7 @@ meta.foundation-mq-topbar {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent rgba(51, 77, 92, 0.4);
+  border-color: transparent transparent transparent rgba(133, 214, 203, 0.4);
   border-left-style: solid;
   margin-right: 1.0416666667rem;
   margin-top: -4.5px;
@@ -3416,7 +3427,7 @@ meta.foundation-mq-topbar {
   padding: 8px 1.0416666667rem 2px;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #45B29D;
+  color: #ABE0D4;
   font-weight: bold;
   font-size: 0.625rem;
 }
@@ -3496,7 +3507,7 @@ meta.foundation-mq-topbar {
   /* line 500, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
     background-color: #555555;
-    background: #A1D044;
+    background: #85D6CB;
     color: #000;
   }
   /* line 509, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
@@ -3508,18 +3519,18 @@ meta.foundation-mq-topbar {
   /* line 513, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #555555;
-    background: #A1D044;
+    background: #85D6CB;
   }
   /* line 522, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 1.0416666667rem;
     line-height: 3.125rem;
     color: #000;
-    background: #A1D044;
+    background: #85D6CB;
   }
   /* line 527, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #45B29D;
+    background: #ABE0D4;
     color: #000;
   }
   /* line 537, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
@@ -3533,7 +3544,7 @@ meta.foundation-mq-topbar {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: rgba(51, 77, 92, 0.4) transparent transparent transparent;
+    border-color: rgba(133, 214, 203, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
     top: 1.5625rem;
@@ -3593,18 +3604,18 @@ meta.foundation-mq-topbar {
     line-height: 3.125rem;
     white-space: nowrap;
     padding: 12px 1.0416666667rem;
-    background: #45B29D;
+    background: #ABE0D4;
   }
   /* line 594, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
     color: #000;
-    background: #45B29D;
+    background: #ABE0D4;
   }
   /* line 599, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
     color: #000;
     background-color: #555555;
-    background: #A1D044;
+    background: #85D6CB;
   }
   /* line 608, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -3653,12 +3664,12 @@ meta.foundation-mq-topbar {
   /* line 661, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
     background-color: #555555;
-    background: #A1D044;
+    background: #85D6CB;
     color: #000;
   }
   /* line 670, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #A1D044;
+    background: #85D6CB;
     color: #000;
   }
   /* line 678, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_top-bar.scss */
@@ -3739,8 +3750,8 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.9375rem;
   transition: opacity 300ms ease-out;
-  background-color: #334D5C;
-  border-color: #2c424f;
+  background-color: #85D6CB;
+  border-color: #61cabc;
   color: #FFFFFF;
 }
 /* line 115, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
@@ -3770,32 +3781,32 @@ meta.foundation-mq-topbar {
 }
 /* line 120, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
 .alert-box.success {
-  background-color: #A1D044;
-  border-color: #8ebe30;
+  background-color: #85D6CB;
+  border-color: #61cabc;
   color: #FFFFFF;
 }
 /* line 121, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
 .alert-box.alert {
-  background-color: #DF4949;
-  border-color: #d82626;
-  color: #FFFFFF;
+  background-color: #F7B7B7;
+  border-color: #f18181;
+  color: #1e5850;
 }
 /* line 122, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
 .alert-box.secondary {
-  background-color: #A1D044;
-  border-color: #8ebe30;
+  background-color: #85D6CB;
+  border-color: #61cabc;
   color: #FFFFFF;
 }
 /* line 123, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
 .alert-box.warning {
-  background-color: #E27A3F;
-  border-color: #d86321;
-  color: #FFFFFF;
+  background-color: #FF8D87;
+  border-color: #ff5950;
+  color: #1e5850;
 }
 /* line 124, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
 .alert-box.info {
-  background-color: #334D5C;
-  border-color: #2c424f;
+  background-color: #85D6CB;
+  border-color: #61cabc;
   color: #FFFFFF;
 }
 /* line 125, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_alert-boxes.scss */
@@ -3823,7 +3834,7 @@ meta.foundation-mq-topbar {
   font-size: 0.6875rem;
   line-height: 0.6875rem;
   text-transform: uppercase;
-  color: #334D5C;
+  color: #85D6CB;
 }
 /* line 68, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
@@ -3831,7 +3842,7 @@ meta.foundation-mq-topbar {
 }
 /* line 70, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_breadcrumbs.scss */
 .breadcrumbs > * a {
-  color: #334D5C;
+  color: #85D6CB;
 }
 /* line 75, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -5709,10 +5720,10 @@ kbd {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #cedce4;
+  border-color: #ceefea;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f1f5f7;
+  background: #f8fdfc;
   color: #333333;
 }
 /* line 55, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_panels.scss */
@@ -5738,11 +5749,11 @@ kbd {
 }
 /* line 84, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_panels.scss */
 .panel.callout a:not(.button) {
-  color: #334D5C;
+  color: #85D6CB;
 }
 /* line 87, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_panels.scss */
 .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
-  color: #2c424f;
+  color: #61cabc;
 }
 /* line 94, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_panels.scss */
 .panel.radius {
@@ -5954,18 +5965,18 @@ dialog[open] {
 /* line 75, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_side-nav.scss */
 .side-nav li a:not(.button) {
   display: block;
-  color: #334D5C;
+  color: #85D6CB;
   margin: 0;
   padding: 0.4375rem 0.875rem;
 }
 /* line 80, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_side-nav.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: rgba(0, 0, 0, 0.025);
-  color: #1f2e37;
+  color: #349c8e;
 }
 /* line 87, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
-  color: #1f2e37;
+  color: #349c8e;
   font-weight: normal;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -5979,7 +5990,7 @@ dialog[open] {
 }
 /* line 101, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_side-nav.scss */
 .side-nav li.heading {
-  color: #334D5C;
+  color: #85D6CB;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -6030,7 +6041,7 @@ dialog[open] {
 .sub-nav li.active a {
   border-radius: 3px;
   font-weight: normal;
-  background: #334D5C;
+  background: #85D6CB;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: #FFFFFF;
@@ -6039,7 +6050,7 @@ dialog[open] {
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-  background: #2c424f;
+  background: #61cabc;
 }
 
 /* line 131, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_tables.scss */
@@ -6115,7 +6126,7 @@ table tr td {
 }
 /* line 48, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_thumbs.scss */
 .th:hover, .th:focus {
-  box-shadow: 0 0 6px 1px rgba(51, 77, 92, 0.5);
+  box-shadow: 0 0 6px 1px rgba(133, 214, 203, 0.5);
 }
 /* line 63, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_thumbs.scss */
 .th.radius {
@@ -6380,13 +6391,13 @@ td {
 /* Default Link Styles */
 /* line 217, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_type.scss */
 a {
-  color: #334D5C;
+  color: #85D6CB;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 222, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_type.scss */
 a:hover, a:focus {
-  color: #2c424f;
+  color: #61cabc;
 }
 /* line 230, /Users/sienaguerrero/Documents/GitHub/website/_sass/foundation-components/_type.scss */
 a img {
@@ -6508,10 +6519,10 @@ code {
   font-family: "Lucida Console", Monaco, monospace;
   font-weight: normal;
   color: #333333;
-  background-color: #e3f1c7;
+  background-color: #daf3ef;
   border-width: 1px;
   border-style: solid;
-  border-color: #d1e8a4;
+  border-color: #b8e7e1;
   padding: 0.125rem 0.3125rem 0.0625rem;
 }
 
@@ -7375,17 +7386,17 @@ a:visited {
 
 /* line 36, /Users/sienaguerrero/Documents/GitHub/website/_sass/_06_typography.scss */
 a:hover {
-  color: #21323b;
+  color: #5fc9bb;
 }
 
 /* line 40, /Users/sienaguerrero/Documents/GitHub/website/_sass/_06_typography.scss */
 a:focus {
-  color: #57849e;
+  color: #d1f0ec;
 }
 
 /* line 44, /Users/sienaguerrero/Documents/GitHub/website/_sass/_06_typography.scss */
 a:active {
-  color: #0f161a;
+  color: #3eb7a7;
 }
 
 /* Customize Foundation Typography
@@ -7531,8 +7542,8 @@ figcaption a,
 /* line 150, /Users/sienaguerrero/Documents/GitHub/website/_sass/_06_typography.scss */
 figcaption a:hover,
 .masthead-caption a:hover {
-  border-bottom: 2px solid #334D5C;
-  color: #334D5C;
+  border-bottom: 2px solid #85D6CB;
+  color: #85D6CB;
 }
 
 /* line 155, /Users/sienaguerrero/Documents/GitHub/website/_sass/_06_typography.scss */
@@ -7555,7 +7566,7 @@ pre {
   overflow: auto;
   margin-bottom: 1.25rem;
   padding: 5px;
-  background-color: #e3f1c7;
+  background-color: #daf3ef;
   border-radius: 3px;
 }
 
@@ -7682,7 +7693,7 @@ button, .button {
 
 /* line 279, /Users/sienaguerrero/Documents/GitHub/website/_sass/_06_typography.scss */
 mark {
-  background-color: #f3cab2;
+  background-color: #ffd1cf;
 }
 
 /* Typography for Articles
@@ -8244,12 +8255,12 @@ body.video cite {
 ------------------------------------------------------------------- */
 /* line 71, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 #masthead {
-  background-color: #334D5C;
+  background-color: #85D6CB;
 }
 
 /* line 74, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 #masthead-no-image-header {
-  background-color: #334D5C;
+  background-color: #85D6CB;
 }
 
 /* line 77, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
@@ -8448,7 +8459,7 @@ body.video cite {
 
 /* line 230, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 #page-meta .button:hover {
-  background: #334D5C;
+  background: #85D6CB;
 }
 
 /* line 233, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
@@ -8466,7 +8477,7 @@ body.video cite {
 /* line 241, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .meta-info a:hover {
   text-decoration: none;
-  color: #A1D044;
+  color: #85D6CB;
 }
 
 /* Jump to top
@@ -8507,7 +8518,7 @@ body.video cite {
 
 /* line 281, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 #footer a {
-  color: #A1D044;
+  color: #85D6CB;
 }
 
 /* line 284, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
@@ -8756,7 +8767,7 @@ body.video cite {
 /* line 79, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box.terminal::before {
   content: "$ ";
-  color: #A1D044;
+  color: #85D6CB;
   float: left;
   margin: .25em .5em 0 0;
 }
