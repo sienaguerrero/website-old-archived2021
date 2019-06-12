@@ -18,10 +18,10 @@
   class: icon-instagram
   title: ""
 
-- name: Twitter
-  url: http://twitter.com/sienaguerrero
-  class: icon-twitter
-  title: ""
+- #name: Twitter
+  #url: http://twitter.com/sienaguerrero
+  #class: icon-twitter
+  #title: ""
 
 - # name: Mixcloud
   # url: http://www.mixcloud.com/phlow/
