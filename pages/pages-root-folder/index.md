@@ -16,16 +16,19 @@ widget1:
   url: 'http://sienaguerrero.github.io/website/my-story/'
   image: /widgets/img_siena-child-computer.jpg
   text: 'Computer Enthusiast, Computer Science Major at Harvey Mudd College'
+  button: "Learn more about my story"
 widget2:
   title: "My Projects"
   url: 'http://sienaguerrero.github.io/website/my-projects/'
   image: /widgets/img_mudd-greenhouse.jpg
   text: 'Mix of various coding and art experimentations.'
+  button: "Learn more about my projects"
 widget3:
   title: "Contact Me"
   url: 'http://sienaguerrero.github.io/website/contact/'
   image: /widgets/img_siena+ruby-petrified-forest.jpg
   text: 'Currently looking for software internships in Fall 2019, Spring 2020, or Summer 2020.'
+  button: "Send me a message"
 #
 # Use the call for action to show a button on the frontpage
 #

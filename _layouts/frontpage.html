@@ -11,14 +11,22 @@ format: frontpage
 
 <br>
 <img src="images/SienaGuerreroHeadshot_Square.JPG" alt="Siena Guerrero Headshot" class="center" style="width:400px;height:400px;">
-<center>
-    <h2>
-        Tech Enthusiast, Computer Science Major at Harvey Mudd College
-    </h2>
-    <p>I am a third-year student at Harvey Mudd College pursuing a degree in Computer Science.
-    <p>I am particularly interested in improving human interactions with technology in our new digital world by bringing together new concepts and research from the fields of psychology, data science, and computing. I strongly believe in the need for experimental and creative ideas to drive innovation. I desire a career in technology with an organization that shares my passion for powerful, efficient, and elegant design.</p>
-    <p>Check out my resumé and <a href = "mailto: sienaguerrero@gmail.com">send me an email</a> for inquiries.</p>
-</center>
+<h3 align=center>Tech Enthusiast, Computer Science Major at Harvey Mudd College</h3>
+<br>
+    <div class="panel radius">
+            <p>Hello! 
+            <p>My name is Siena, and I am a third-year student at Harvey Mudd College pursuing a degree in Computer Science.
+            <p>I am particularly interested in improving human interactions with technology in our new digital world by bringing together new concepts and research from the fields of psychology, data science, and computing. I strongly believe in the need for experimental and creative ideas to drive innovation. 
+            <p>I desire a career in technology with an organization that shares my passion for powerful, efficient, and elegant design. You can see some of my projects illustrating my passions <a href = "https://sienaguerrero.com/my-projects/">here</a>.</p>
+            <p>Check out my resumé and <a href = "mailto: sienaguerrero@gmail.com">send me an email</a> for inquiries!</p>
+
+            <ul class="inline-list social-icons">
+                    {% for social_item in site.data.socialmedia %}
+                        <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+                    {% endfor %}
+            </ul>
+        </div>
+    
 
 {% comment %}
 *

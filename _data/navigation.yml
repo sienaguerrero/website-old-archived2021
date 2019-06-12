@@ -26,7 +26,7 @@
   url: "/articles/"
   side: right
   dropdown:
-  - title: "My Cmputer Setup"
+  - title: "My Computer Setup"
     url: "/_posts/my-computer-setup/"
 
 
