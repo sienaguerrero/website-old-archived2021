@@ -41,7 +41,7 @@ widget3:
 #
 callforaction:
   url: /assets/SienaGuerrero_Resume.pdf
-  text: Download My Resumé 
+  text: Download My Résumé 
   style: alert
 permalink: /index.html
 #

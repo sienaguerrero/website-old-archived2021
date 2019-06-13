@@ -227,7 +227,7 @@
                         
                           
                           
-                            <li><a  href="https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing" target="_blank">My Resumé</a></li>
+                            <li><a  href="https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing" target="_blank">My Résumé</a></li>
                           
                         
                       </ul>
