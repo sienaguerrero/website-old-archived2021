@@ -1,3 +1,7 @@
+---
+layout: article
+title: "Essential Mac Apps"
+permalink: "/essential-mac-apps/"
 header: no
 image:
     title: IMAGE_HERE
@@ -5,10 +9,10 @@ image:
     caption_url: URL_HERE
     show_meta: true
 categories:
-    - CATEGORY_HERE
+    - lists
 tags:
-    - TAG_HERE
-    - content
+    - mac
+    - apps
 ---
 Here's a list of my essential mac apps. While I don't *need* these apps per se, they make using my MacBook a lot easier.
 

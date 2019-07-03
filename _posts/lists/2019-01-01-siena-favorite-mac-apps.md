@@ -1,3 +1,7 @@
+---
+layout: article
+title: "Favorite Mac Apps"
+permalink: "/favorite-mac-apps/"
 header: no
 image:
     title: IMAGE_HERE
@@ -5,10 +9,10 @@ image:
     caption_url: URL_HERE
     show_meta: true
 categories:
-    - CATEGORY_HERE
+    - lists
 tags:
-    - TAG_HERE
-    - content
+    - mac
+    - apps
 ---
 *Last updated: July 1, 2019*
 
