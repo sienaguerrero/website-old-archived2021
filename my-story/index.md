@@ -22,3 +22,4 @@ Lived in 6 different US states • Lived abroad (Japan) • Military child • E
 
 ## Developers who inspired me while making this site
 https://chris.beams.io
+Tania Rascia https://www.taniarascia.com
