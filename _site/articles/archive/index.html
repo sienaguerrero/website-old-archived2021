@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Search</title>
+	<title>Articles Archive</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -26,20 +26,20 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
+	<meta name="description" content="Check out all of my articles. Click on a headline to read the teaser.">
 	
 	
 	
 	
 	
 	
-	<link rel="canonical" href="http://localhost:4000/search/">
+	<link rel="canonical" href="http://localhost:4000/articles/archive/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Search">
-	<meta property="og:description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
-	<meta property="og:url" content="http://localhost:4000/search/">
+	<meta property="og:title" content="Articles Archive">
+	<meta property="og:description" content="Check out all of my articles. Click on a headline to read the teaser.">
+	<meta property="og:url" content="http://localhost:4000/articles/archive/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Siena Maria Guerrero">
@@ -84,7 +84,7 @@
 	
 
 </head>
-<body id="top-of-page" class="post">
+<body id="top-of-page" class="">
 	
 	
 <div id="navigation" class="sticky">
@@ -287,7 +287,7 @@
 
 	
 
-<div id="masthead-no-image-header">
+<div id="masthead">
 	<div class="row">
 		<div class="small-12 columns">
 			<!-- <a id="logo" href="http://localhost:4000/" title="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
@@ -300,57 +300,62 @@
 
 
 
+<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
+ <a href="http://localhost:4000">Start</a>
+ 
+   
+    
+        <a href="http://localhost:4000/articles/">articles</a>
+    
+  
+    
+        <a class="current">Articles Archive</a>
+    
+  
+</nav>
 
 
 
 
-	<div class="row t30">
-	<div class="medium-8 columns medium-offset-2 end">
-		<article itemscope itemtype="http://schema.org/Article">
-			<header>
+
+
+
+
+
+
+	<div id="blog-index" class="row">
+	<div class="small-12 columns t30">
+		<h1>Articles Archive</h1>
+		<p class="teaser">Check out all of my articles. Click on a headline to read the teaser.</p>
+
+		<dl class="accordion" data-accordion>
+			
+			
 				
-
-				<div itemprop="name">
-					
-					<h1>Search</h1>
 				</div>
-			</header>
-
-
+			</dd>
 			
-
-			<div itemprop="articleSection">
 			
-<script language="Javascript" type="text/javascript">
-	function google_search() {
-		var query = document.getElementById("google-search").value;
-		window.open("https://www.google.com/search?q=" + query + "+site:" + "http%3A%2F%2Flocalhost%3A4000%2F");
-	}
-</script>
-
-<form id="search" onsubmit="google_search(); return false;">
-	<input type="text" id="google-search" placeholder="Enter search term and hit enter" />
-</form>
-<noscript>
-	Search <a href="https://www.google.com/search?q=site:http%3A%2F%2Flocalhost%3A4000%2F" target="_blank">Google</a> for:
-	<pre><code>search-term site:http://localhost:4000/</code></pre>
-</noscript>
-
-
-			</div>
-
+				
+				</div>
+			</dd>
 			
-
 			
-		</article>
-	</div><!-- /.medium-8.columns -->
-
-
-	
-
-
-	
+				
+				</div>
+			</dd>
+			
+			
+				
+				</div>
+			</dd>
+			
+			
+		</dl>
+	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
+
+
 
 
 	
@@ -500,6 +505,11 @@
 <script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
+
+<script>
+    $("#masthead").backstretch("http://localhost:4000/images/header_unsplash_8.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("http://localhost:4000/images/header_unsplash_8.jpg", {fade: 700});
+</script>
 
 
 

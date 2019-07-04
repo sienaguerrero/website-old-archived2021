@@ -374,8 +374,8 @@
             <p class="shadow-black">
               Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College. <br>
               <a href="http://localhost:4000/my-story/">Learn more about my story.</a> <br>
-              <a href='https://ko-fi.com/S6S8WFPN'>Support Me on Ko-fi</a> <br>
-              Hosted on Github Pages, maintained on <a href='https://github.com/sienaguerrero/website'>Github</a>.
+              <a href='https://ko-fi.com/S6S8WFPN'>Support Me on Ko-fi.</a> <br>
+              Hosted on <a href='https://pages.github.com'>Github Pages,</a> maintained on <a href='https://github.com/sienaguerrero/website'>Github.</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -406,7 +406,7 @@
               
                 
                   <li >
-                    <a href="https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing" target="_blank"  title="Resume">Download My Resumé</a>
+                    <a href="https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing" target="_blank"  title="Resume">Download My Resume</a>
                   </li>
               
                 
