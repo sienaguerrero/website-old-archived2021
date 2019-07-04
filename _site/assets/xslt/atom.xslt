@@ -185,7 +185,7 @@
                         
                           
                           
-                            <li><a  href="/my-accomplishments/">My Accomplishments</a></li>
+                            <li><a  href="/my-story/my-accomplishments/">My Accomplishments</a></li>
                           
                         
                       </ul>
@@ -240,7 +240,7 @@
                         
                           
                           
-                            <li><a  href="/helpful-resources/">Helpful Resources</a></li>
+                            <li><a  href="/useful-resources/">Useful Resources</a></li>
                           
                         
                       </ul>
@@ -265,12 +265,12 @@
                         
                           
                           
-                            <li><a  href="//">My Favorite Mac Apps</a></li>
+                            <li><a  href="/favorite-mac-apps/">My Favorite Mac Apps</a></li>
                           
                         
                           
                           
-                            <li><a  href="//">My Essential Mac Apps</a></li>
+                            <li><a  href="/essential-mac-apps/">My Essential Mac Apps</a></li>
                           
                         
                           

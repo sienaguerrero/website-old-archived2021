@@ -7,7 +7,7 @@
   side: right
   dropdown:
   - title: My Accomplishments
-    url: "/my-accomplishments/"
+    url: "/my-story/my-accomplishments/"
 
 - title: "My Projects"
   url: "/my-projects/"
@@ -26,9 +26,9 @@
   dropdown:
   - title: "My Resume"
     url: "/downloads/SienaGuerrero-Resume.pdf"
-  - title: "Helpful Resources"
+  - title: "Useful Resources"
     linky: no
-    url: "/helpful-resources/"
+    url: "/useful-resources/"
 
 - title: Articles
   url: "/articles/"
@@ -37,9 +37,9 @@
   - title: "My Computer Setup"
     url: "/my-computer-setup/"
   - title: "My Favorite Mac Apps"
-    url: "//"
+    url: "/favorite-mac-apps/"
   - title: "My Essential Mac Apps"
-    url: "//"
+    url: "/essential-mac-apps/"
   - title: "Archive"
     url: "/articles/archive/"
 
