@@ -7,6 +7,10 @@ permalink: "/my-story/"
 header:
     title: My Story
     image_fullwidth: "/headers/header_ecuador.jpg"
+callforaction: 
+    url: /my-accomplishments/
+    text: Learn about my accomplishments.
+    style: alert
 ---
 I am a curious and self-directed learner who is disciplined, organized, and motivated. I attended 3 different high schools in 4 years and lived in 5 different U.S. states and 1 country outside the U.S. (Japan) during my childhood due to my father’s work, so I am used to starting over and becoming successful in new environments.
 
