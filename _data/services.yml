@@ -1,5 +1,17 @@
 - menu_name: "Quick Links"
 
+- name: "My Projects"
+  url: "/my-projects/"
+  title: "My Projects"
+
+- name: "Articles"
+  url: "/articles/"
+  title: "Articles"
+
+- name: "Blog"
+  url: "/blog/"
+  title: "Blog"
+
 - name: "Contact Me"
   url: "/contact/"
   title: "Contact"
