@@ -15,26 +15,41 @@
   side: right
   dropdown: 
   - title: "HMC Greenhouse"
-    url: "/hmc-greenhouse/"
+    url: "/my-projects/hmc-greenhouse/"
+  - title: "Groover"
+    url: "/my-projects/groover/"
+  - title: "cuarenta"
+    url: "/my-projects/cuarenta/"
 
 - title: "Downloads"
   url: ""
   side: right
   dropdown:
   - title: "My Resume"
-    linky: no
     url: "/downloads/SienaGuerrero-Resume.pdf"
+  - title: "Helpful Resources"
+    linky: no
+    url: "/helpful-resources/"
 
 - title: Articles
   url: "/articles/"
   side: right
   dropdown:
+  - title: "Archive"
+    url: "/articles/archive/"
   - title: "My Computer Setup"
-    url: "/_posts/my-computer-setup/"
+    url: "/my-computer-setup/"
+    title: "My Favorite Mac Apps"
+    url: "//"
+    title: "My Essential Mac Apps"
+    url: "//"
 
 - title: Blog
   url: "/blog/"
   side: right
+  dropdown:
+  - title: "Archive"
+    url: "/blog/archive/"
 
 - title: "Contact"
   url: "/contact/"

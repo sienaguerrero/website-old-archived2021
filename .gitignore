@@ -3,3 +3,7 @@
 
 # Ignore node_modules folder
 _drafts
+
+.sass-cache
+# Generated locally, should not be pushed
+_site
