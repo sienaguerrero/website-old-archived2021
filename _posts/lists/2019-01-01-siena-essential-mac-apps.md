@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Essential Mac Apps"
 permalink: "/essential-mac-apps/"
 header: no
@@ -13,13 +13,14 @@ categories:
 tags:
     - mac
     - apps
+    - essentials
 ---
 Here's a list of my essential mac apps. While I don't *need* these apps per se, they make using my MacBook a lot easier.
 
 In total, this list comprises 58 apps with a total size of ~48GB. In no particular order:
 
-#My Essential Apps
-##Apps for Development
+### My Essential Apps
+#### Apps for Development
 * GitHub Desktop [example link](http://example.com/)
 * iTerm2
 * Marked 2
@@ -30,12 +31,12 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 * SnippetsLab
 * Funter
 
-##Apps for Videos
+#### Apps for Videos
 * HandBrake
 * Helium
 * VLC
 
-##Apps for Design
+#### Apps for Design
 * Affinity Designer
 * Affinity Photo
 * Sketch
@@ -44,7 +45,7 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 * Aseprite
 * Color Picker
 
-##Apps for Modifying OS
+#### Apps for Modifying OS
 * NewFileMenu
 * Dictionaries
 * Private Internet Access
@@ -54,7 +55,7 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 * Micro Snitch
 * Funter
 
-##Apps for the Menubar
+#### Apps for the Menubar
 * Amphetamine
 * Bartender 3
 * BeardedSpice
@@ -66,7 +67,7 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 * Yoink
 * 1Password 7
 
-##Apps for Productivity/Organization
+#### Apps for Productivity/Organization
 * Things
 * Deliveries
 * PDF Expert
@@ -79,7 +80,7 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 * The Unarchiver
 * coconutBattery
 
-##Apps for Reading/Writing/Gaming
+#### Apps for Reading/Writing/Gaming
 * iA Writer
 * Scrivener
 * calibre
@@ -88,7 +89,7 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 * Steam
 * OpenEmu
 
-##Apps for Academics
+#### Apps for Academics
 * Zotero
 * Mathematica
 * iStudiez Pro
@@ -100,7 +101,7 @@ In total, this list comprises 58 apps with a total size of ~48GB. In no particul
 And that's about it! I have a fews apps that I might use on and off, but if I ever need to make a fresh install, these are the apps I'll install first.
 
 
-#Honorable Mentions
+### Honorable Mentions
 These are apps I'm still trying out.
 * Flashcardhero
 * Carbonize
@@ -114,6 +115,6 @@ These are apps I'm still trying out.
 * Sip
 * Franz
 
-## Related Posts
+#### Related Posts
 {: .t60 }
 {% include list-posts tag='RELATED_TAG_HERE' %}

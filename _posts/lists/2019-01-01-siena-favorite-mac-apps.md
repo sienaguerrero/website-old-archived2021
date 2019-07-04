@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: "Favorite Mac Apps"
 permalink: "/favorite-mac-apps/"
 header: no
@@ -13,12 +13,13 @@ categories:
 tags:
     - mac
     - apps
+    - favorites
 ---
 *Last updated: July 1, 2019*
 
 Here's a list of mac apps I wouldn't want to work without. These apps speed up my workflow and help keep me organized.  
 
-##Siena's Favorite Mac Apps
+### Siena's Favorite Mac Apps
 This list contains 13 apps that cost ~\$391. It also contains one subscription app for \$3/month. In no particular order:
 
 * __Visual Studio Code__ ([FREE](https://code.visualstudio.com)): This is my main editor. I use it to write code and write blog posts/articles. As I've been learning Markdown, I've also been switching some of my note-taking to basic markdown documents made on this app. I have also enjoyed trying out Atom, but overall Visual Studio Code is the app I am most familiar and comfortable with using. 
@@ -50,7 +51,7 @@ This list contains 13 apps that cost ~\$391. It also contains one subscription a
 
 * __Scrivener__ ([$49*](https://www.literatureandlatte.com/store/scrivener?tab=macOS)): I'm still getting used to working on writing assignments/projects using this app, but so far I really like how it is set up for use in writing academic essays and reports. 
 
-##Favorite Apps by Apple
+### Favorite Apps by Apple
 These applications come pre-installed on Mac OS, and they're good enough that I use them often in my workflow.
 
 * iTunes
