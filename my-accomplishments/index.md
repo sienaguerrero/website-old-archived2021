@@ -5,6 +5,10 @@ subheadline: "Education, Work, and Skills"
 header:
     title: "My Accomplishments"
     image_fullwidth: "/headers/header_arizona-mountains.jpg"
+callforaction: 
+    url: /my-story/
+    text: Learn about my story.
+    style: alert
 ---
 This page contains information about my educational background, work experience, skills, and more.
 

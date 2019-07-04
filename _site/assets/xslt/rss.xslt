@@ -163,12 +163,6 @@
           
           
         
-
-              
-
-          
-          
-        
         
       </ul>
 
@@ -185,21 +179,17 @@
                 
                 
                   <li class="divider"></li>
-                  <li><a  href="http://localhost:4000/my-story/">My Story</a></li>
-   
-                
-                
-              
-            
-                  
-              
-              
-                
-                
-                  <li class="divider"></li>
-                  <li><a  href="http://localhost:4000/my-accomplishments/">My Accomplishments</a></li>
-   
-                
+                  <li class="has-dropdown">
+                    <a  href="http://localhost:4000/my-story/">My Story</a>
+                      <ul class="dropdown">
+                        
+                          
+                          
+                            <li><a  href="/my-accomplishments/">My Accomplishments</a></li>
+                          
+                        
+                      </ul>
+                  </li>
                 
               
             
@@ -270,12 +260,22 @@
                         
                           
                           
-                            <li><a  href="/articles/archive/">Archive</a></li>
+                            <li><a  href="/my-computer-setup/">My Computer Setup</a></li>
+                          
+                        
+                          
+                          
+                            <li><a  href="//">My Favorite Mac Apps</a></li>
                           
                         
                           
                           
                             <li><a  href="//">My Essential Mac Apps</a></li>
+                          
+                        
+                          
+                          
+                            <li><a  href="/articles/archive/">Archive</a></li>
                           
                         
                       </ul>

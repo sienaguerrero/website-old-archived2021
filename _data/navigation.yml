@@ -5,10 +5,9 @@
 - title: My Story
   url: "/my-story/"
   side: right
-
-- title: My Accomplishments
-  url: "/my-accomplishments/"
-  side: right
+  dropdown:
+  - title: My Accomplishments
+    url: "/my-accomplishments/"
 
 - title: "My Projects"
   url: "/my-projects/"
@@ -35,14 +34,14 @@
   url: "/articles/"
   side: right
   dropdown:
-  - title: "Archive"
-    url: "/articles/archive/"
   - title: "My Computer Setup"
     url: "/my-computer-setup/"
-    title: "My Favorite Mac Apps"
+  - title: "My Favorite Mac Apps"
     url: "//"
-    title: "My Essential Mac Apps"
+  - title: "My Essential Mac Apps"
     url: "//"
+  - title: "Archive"
+    url: "/articles/archive/"
 
 - title: Blog
   url: "/blog/"
