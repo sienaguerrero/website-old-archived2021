@@ -215,7 +215,17 @@
                         
                           
                           
-                            <li><a  href="/hmc-greenhouse/">HMC Greenhouse</a></li>
+                            <li><a  href="/my-projects/hmc-greenhouse/">HMC Greenhouse</a></li>
+                          
+                        
+                          
+                          
+                            <li><a  href="/my-projects/groover/">Groover</a></li>
+                          
+                        
+                          
+                          
+                            <li><a  href="/my-projects/cuarenta/">cuarenta</a></li>
                           
                         
                       </ul>
@@ -238,6 +248,11 @@
                             <li><a  href="/downloads/SienaGuerrero-Resume.pdf">My Resume</a></li>
                           
                         
+                          
+                          
+                            <li><a  href="/helpful-resources/">Helpful Resources</a></li>
+                          
+                        
                       </ul>
                   </li>
                 
@@ -255,7 +270,12 @@
                         
                           
                           
-                            <li><a  href="/_posts/my-computer-setup/">My Computer Setup</a></li>
+                            <li><a  href="/articles/archive/">Archive</a></li>
+                          
+                        
+                          
+                          
+                            <li><a  href="//">My Essential Mac Apps</a></li>
                           
                         
                       </ul>
@@ -269,9 +289,17 @@
                 
                 
                   <li class="divider"></li>
-                  <li><a  href="http://localhost:4000/blog/">Blog</a></li>
-   
-                
+                  <li class="has-dropdown">
+                    <a  href="http://localhost:4000/blog/">Blog</a>
+                      <ul class="dropdown">
+                        
+                          
+                          
+                            <li><a  href="/blog/archive/">Archive</a></li>
+                          
+                        
+                      </ul>
+                  </li>
                 
               
             
@@ -414,7 +442,7 @@
               
                 
                   <li >
-                    <a href="https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing" target="_blank"  title="Resume">Download My Resume</a>
+                    <a href="http://localhost:4000/downloads/SienaGuerrero-Resume.pdf"  title="Resume">Download My Resume</a>
                   </li>
               
                 

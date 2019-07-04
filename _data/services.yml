@@ -5,7 +5,7 @@
   title: "Contact"
 
 - name: "Download My Resume"
-  url: "https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing"
+  url: "/downloads/SienaGuerrero-Resume.pdf"
   title: "Resume"
 
 # - name: "RSS"
