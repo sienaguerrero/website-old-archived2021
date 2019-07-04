@@ -13,14 +13,17 @@
 - title: "My Projects"
   url: "/my-projects/"
   side: right
+  dropdown: 
+  - title: "HMC Greenhouse"
+    url: "/hmc-greenhouse/"
 
 - title: "Downloads"
   url: ""
   side: right
   dropdown:
-  - title: "My Résumé"
-    linky: yes
-    url: "https://drive.google.com/file/d/1woaqZqjmmLgznLeUrDItz3UWjW1oQuAQ/view?usp=sharing"
+  - title: "My Resume"
+    linky: no
+    url: "/downloads/SienaGuerrero-Resume.pdf"
 
 - title: Articles
   url: "/articles/"
@@ -28,7 +31,6 @@
   dropdown:
   - title: "My Computer Setup"
     url: "/_posts/my-computer-setup/"
-
 
 - title: Blog
   url: "/blog/"

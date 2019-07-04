@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom">
-<xsl:output method="html" encoding="utf-8" />
-<xsl:template match="/atom:feed">
-	<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html &gt;</xsl:text>
-	<html>
-	<head>
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		<meta charset="utf-8">
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Atom Feed (Styled)</title>
+	<title>Mudd Greenhouse</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -38,13 +33,13 @@
 	
 	
 	
-	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
+	<link rel="canonical" href="http://localhost:4000/my-projects/hmc-greenhouse/">
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Atom Feed (Styled)">
+	<meta property="og:title" content="Mudd Greenhouse">
 	<meta property="og:description" content="Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College.">
-	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
+	<meta property="og:url" content="http://localhost:4000/my-projects/hmc-greenhouse/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Siena Maria Guerrero">
@@ -88,11 +83,10 @@
 
 	
 
-		]]></xsl:text>
-	</head>
-	<body id="top-of-page">
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		
+</head>
+<body id="top-of-page" class="post">
+	
+	
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
@@ -297,14 +291,14 @@
   </nav>
 </div><!-- /#navigation -->
 
-		
+	
 
-<div id="masthead-no-image-header">
+	
+
+<div id="masthead-with-text" style=" ">
 	<div class="row">
 		<div class="small-12 columns">
-			<!-- <a id="logo" href="http://localhost:4000/" title="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
-				<img src="http://localhost:4000/assets/img/" alt="Siena Maria Guerrero – Tech Enthusiast, Computer Science Major at Harvey Mudd College">
-			</a> -->
+			<div class="masthead-title">HMC Wellness Greenhouse</div>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
@@ -316,57 +310,44 @@
 
 
 
-		
 
 
-<div class="alert-box warning text-center"><p>This <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">Atom feed</a> is meant to be used by <a href="https://en.wikipedia.org/wiki/Template:Aggregators" target="_blank">RSS reader applications and websites</a>.</p>
-</div>
+	<div class="row t30">
+	<div class="medium-8 columns medium-offset-2 end">
+		<article itemscope itemtype="http://schema.org/Article">
+			<header>
+				
+
+				<div itemprop="name">
+					<p class="subheadline">Digital Designer, Tinkerer, and Lover of Coding</p>
+					<h1>Mudd Greenhouse</h1>
+				</div>
+			</header>
 
 
+			
 
-		]]></xsl:text>
-		<header class="t30 row">
-	<p class="subheadline"><xsl:value-of select="atom:subtitle" disable-output-escaping="yes" /></p>
-	<h1>
-		<xsl:element name="a">
-			<xsl:attribute name="href">
-				<xsl:value-of select="atom:id" />
-			</xsl:attribute>
-			<xsl:value-of select="atom:title" />
-		</xsl:element>
-	</h1>
-</header>
-<ul class="accordion row" data-accordion="">
-	<xsl:for-each select="atom:entry">
-		<li class="accordion-navigation">
-			<xsl:variable name="slug-id">
-				<xsl:call-template name="slugify">
-					<xsl:with-param name="text" select="atom:id" />
-				</xsl:call-template>
-			</xsl:variable>
-			<xsl:element name="a">
-				<xsl:attribute name="href"><xsl:value-of select="concat('#', $slug-id)"/></xsl:attribute>
-				<xsl:value-of select="atom:title"/>
-				<br/>
-				<small><xsl:value-of select="atom:updated"/></small>
-			</xsl:element>
-			<xsl:element name="div">
-				<xsl:attribute name="id"><xsl:value-of select="$slug-id"/></xsl:attribute>
-				<xsl:attribute name="class">content</xsl:attribute>
-				<h1>
-					<xsl:element name="a">
-						<xsl:attribute name="href"><xsl:value-of select="atom:id"/></xsl:attribute>
-						<xsl:value-of select="atom:title"/>
-					</xsl:element>
-				</h1>
-				<xsl:value-of select="atom:content" disable-output-escaping="yes" />
-			</xsl:element>
-		</li>
-	</xsl:for-each>
-</ul>
+			<div itemprop="articleSection">
+			<p>The Mudd Wellness Greenhouse, or “Mudd Greenhouse” is a space on campus to provide students access to tools, supplies, and storage for all gardening-related activities. The Greenhouse stocks many commonly used tools for gardening such as shovels, soil, seeds, pots, and more. The Mudd Greenhouse is envisioned as a place that makes gardening more easily accessible to all as well as a space for the community to enjoy the benefits of gardening while studying or relaxing.</p>
 
-		<xsl:text disable-output-escaping="yes"><![CDATA[
-		    <div id="up-to-top" class="row">
+			</div>
+
+			
+
+			
+		</article>
+	</div><!-- /.medium-8.columns -->
+
+
+	
+
+
+	
+</div><!-- /.row -->
+
+
+	
+	    <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
@@ -504,13 +485,19 @@
       </div><!-- /#subfooter -->
     </footer>
 
-		
+	
+
+	
 
 
 <script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 
+<script>
+    $("#masthead").backstretch("http://localhost:4000/images//headers/header_purple-flower.jpg", {fade: 700});
+    $("#masthead-with-text").backstretch("http://localhost:4000/images//headers/header_purple-flower.jpg", {fade: 700});
+</script>
 
 
 
@@ -522,18 +509,7 @@
 
 
 
-		]]></xsl:text>
-	</body>
-	</html>
-</xsl:template>
-<xsl:template name="slugify">
-	<xsl:param name="text" select="''" />
-	<xsl:variable name="dodgyChars" select="' ,.#_-!?*:;=+|&amp;/\\'" />
-	<xsl:variable name="replacementChar" select="'-----------------'" />
-	<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
-	<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
-	<xsl:variable name="lowercased"><xsl:value-of select="translate( $text, $uppercase, $lowercase )" /></xsl:variable>
-	<xsl:variable name="escaped"><xsl:value-of select="translate( $lowercased, $dodgyChars, $replacementChar )" /></xsl:variable>
-	<xsl:value-of select="$escaped" />
-</xsl:template>
-</xsl:stylesheet>
+
+</body>
+</html>
+
