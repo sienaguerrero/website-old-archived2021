@@ -21,7 +21,7 @@ widget2:
   title: "My Projects"
   url: 'http://sienaguerrero.github.io/website/my-projects/'
   image: /widgets/img_mudd-greenhouse.jpg
-  text: 'Mix of various coding and art experimentations.'
+  text: 'Mix of various coding, building, and art experimentations.'
   button: "Learn more about my projects"
 widget3:
   title: "Contact Me"
@@ -40,8 +40,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: /assets/SienaGuerrero_Resume.pdf
-  text: Download My Résumé 
+  url: /downloads/SienaGuerrero-Resume.pdf
+  text: Download My Resume 
   style: alert
 permalink: /index.html
 #
