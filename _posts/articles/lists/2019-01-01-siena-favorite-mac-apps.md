@@ -9,6 +9,7 @@ image:
     caption_url: URL_HERE
     show_meta: true
 categories:
+    - article
     - lists
 tags:
     - mac

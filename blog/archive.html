@@ -15,7 +15,7 @@ permalink: "blog/archive/"
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
 			{% for post in site.posts limit:1000 %}
-				{% if post.layout == "blog"%}
+				{% if post.categories contains 'blog' %}
 					<dd class="accordion-navigation">
 					<a href="#panel{{ counter }}"><span class="iconfont"></span> 
 					{% if post.subheadline %}
@@ -38,6 +38,3 @@ permalink: "blog/archive/"
 		</dl>
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
-
-
-{% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}

@@ -409,9 +409,14 @@
 
             <p class="shadow-black">
               Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College. <br>
-              <a href="http://localhost:4000/my-story/">Learn more about my story.</a> <br>
-              <a href='https://ko-fi.com/S6S8WFPN'>Support Me on Ko-fi.</a> <br>
-              Hosted on <a href='https://pages.github.com'>Github Pages,</a> maintained on <a href='https://github.com/sienaguerrero/website'>Github.</a>
+              <a href="http://localhost:4000/my-story/">Learn more about my story.</a>
+              <br>
+              <br>
+              Hosted on <a href='https://pages.github.com'>Github Pages,</a> 
+              maintained on 
+              <a href='https://github.com/sienaguerrero/website'>Github.</a> 
+              If you find an error on this site, let me know by 
+              <a href='https://github.com/sienaguerrero/website/issues/new'>submitting an issue.</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -419,6 +424,10 @@
             
               
                 <h5 class="shadow-black">Quick Links</h5>
+              
+            
+              
+            
               
             
               
@@ -437,17 +446,27 @@
               
                 
                   <li >
+                    <a href="https://ko-fi.com/S6S8WFPN" target="_blank"  title="Support Me on Ko-fi">Support Me on Ko-fi</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/downloads/SienaGuerrero-Resume.pdf"  title="Download My Resume">Download My Resume</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="https://www.hmc.edu" target="_blank"  title="HMC Website">About Harvey Mudd College</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="https://www.cs.hmc.edu" target="_blank"  title="HMC Computer Science Website">About HMC Computer Science</a>
+                  </li>
+              
+                
+                  <li >
                     <a href="http://localhost:4000/contact/"  title="Contact">Contact Me</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000/downloads/SienaGuerrero-Resume.pdf"  title="Resume">Download My Resume</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000/sitemap.xml"  title="Sitemap for Google Webmaster Tools">sitemap.xml</a>
                   </li>
               
               </ul>
