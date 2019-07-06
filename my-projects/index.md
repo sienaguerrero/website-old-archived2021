@@ -24,7 +24,7 @@ This page contains information and demos for my various projects.
 ![alt text](../images/img_siena-greenhouse.jpg "Siena (left) at Mudd Greenhouse opening with HMC Dean Michelle"){:height="400" width="400"} 
 
 **Project Info:** Helped design and raise money ($2500) to build community greenhouse. Oversaw construction and set-up of the space including purchasing supplies. Stocked interior with furnishings including gardening tools, chairs, shelves, gardening books, and a potting station. \\
-**To visit the Facebook page:** [click here](http://www.groovermusic.net/)
+**To visit the Facebook page:** [click here](https://www.facebook.com/muddgreenhouse/)
 
 ### Cuarenta Java App
 **Project Info:** Cuarenta is a java program based on the card game "Cuarenta" (the national card game of Ecuador). *Currently in development.* \\
