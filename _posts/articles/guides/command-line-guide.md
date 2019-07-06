@@ -9,11 +9,13 @@ image:
     caption_url: URL_HERE
     show_meta: true
 categories:
-    - lists
+    - article
+    - guide
 tags:
     - mac
     - commandline
     - terminal
+published: false
 ---
 
 CTRL-E end of line

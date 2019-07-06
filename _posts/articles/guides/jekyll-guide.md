@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Markdown Guide"
-permalink: "/markdown-guide/"
+title: "Jekyll Guide"
+permalink: "/jekyll-guide/"
 header: no
 image:
     title: IMAGE_HERE
@@ -12,12 +12,10 @@ categories:
     - article
     - guide
 tags:
-    - mac
-    - commandline
-    - terminal
+    - jekyll
+    - sites
+    - development
 published: false
 ---
-
-
 
 

@@ -7,3 +7,6 @@ _drafts
 .sass-cache
 # Generated locally, should not be pushed
 _site
+
+.jekyll-metadata
+# This helps Jekyll keep track of which files have not been modified since the site was last built, and which files will need to be regenerated on the next build. This file will not be included in the generated site.

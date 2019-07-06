@@ -4,13 +4,25 @@ format: blog-index
 # Don't index these pages dear Google.
 noindex: true
 ---
-<div class="row">
-	<div class="medium-8 columns t30">
-		{% include _pagination.html %}
-	</div><!-- /.medium-7.columns -->
 
+<div class="row">
 
 	<div class="medium-4 columns t30">
 		{% include _sidebar-article.html %}
 	</div><!-- /.medium-5.columns -->
+
+	<div class="medium-8 columns t30">
+		{% include list-posts entries='5' offset='1' category='article' %}
+		{% for post in site.posts %}
+			<li>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p>{{ post.teaser }}</p>
+			</li>
+		{% endfor %}
+	</div>
+
+	<div class="medium-8 columns t30">
+		{% include _pagination-article.html %}
+	</div><!-- /.medium-7.columns -->
+	
 </div><!-- /.row -->
