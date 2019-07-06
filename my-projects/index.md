@@ -15,11 +15,11 @@ This page contains information and demos for my various projects.
 ![alt text](../images/projects/img_groover-homepage-screenshot.jpg "groovermusic.net homepage"){:height="400" width="400"} 
 
 **Project Info:** Groover is a web app that generate music recommendations based on your favorite song's lyrical content. This project was developed during "CS121 Software Development" project at Harvey Mudd College in Spring 2019. \\
-**To watch a demo:** [click here](www.sienaguerrero.com/downloads/Groover-Demo.mp4) \\
+**To watch a demo:** [click here](../../downloads/Groover-Demo.mp4) \\
 **To visit the Github repo:** [click here](https://github.com/sienaguerrero/groover) \\
 **To see it in action:** [click here](http://www.groovermusic.net/) *note: site may take a while to load on first launch*\\
 **To read our Final Report:** [click here](https://www.sienaguerrero.com/downloads/Groover-FinalReport.pdf) 
-
+{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %} 
 ### Harvey Mudd Wellness Greenhouse
 ![alt text](../images/img_siena-greenhouse.jpg "Siena (left) at Mudd Greenhouse opening with HMC Dean Michelle"){:height="400" width="400"} 
 
