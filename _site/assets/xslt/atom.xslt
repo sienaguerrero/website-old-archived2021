@@ -237,11 +237,6 @@
                         
                           
                           
-                            <li><a  href="/my-computer-setup/">My Computer Setup</a></li>
-                          
-                        
-                          
-                          
                             <li><a  href="/favorite-mac-apps/">My Favorite Mac Apps</a></li>
                           
                         

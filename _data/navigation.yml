@@ -34,8 +34,8 @@
   url: "/articles/"
   side: right
   dropdown:
-  - title: "My Computer Setup"
-    url: "/my-computer-setup/"
+  #- title: "My Computer Setup"
+  #  url: "/my-computer-setup/"
   - title: "My Favorite Mac Apps"
     url: "/favorite-mac-apps/"
   - title: "My Essential Mac Apps"
