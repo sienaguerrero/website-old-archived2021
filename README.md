@@ -9,5 +9,6 @@ To see a preview in action, visit [sienaguerrero.com](http://www.sienaguerrero.c
 
 To host locally:
 1. Install Jekyll.
-2. Clone this repository and navigate to it using Terminal.
-3. Run using `bundle exec jekyll serve --config _config.yml,_config_dev.yml`
+2. Clone this project.
+3. `cd` into the project folder.
+4. Run using `bundle exec jekyll serve --config _config.yml,_config_dev.yml`
