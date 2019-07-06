@@ -14,6 +14,7 @@ categories:
 tags:
     - computer
     - setup
+published: false
 ---
 
 ### My Computer Setup

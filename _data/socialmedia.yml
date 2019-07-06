@@ -13,10 +13,10 @@
   class: icon-linkedin
   title: ""
 
-- name: Instagram
-  url: http://instagram.com/siena.guerrero
-  class: icon-instagram
-  title: ""
+#- name: Instagram
+#  url: http://instagram.com/siena.guerrero
+#  class: icon-instagram
+#  title: ""
 
 - #name: Twitter
   #url: http://twitter.com/sienaguerrero
