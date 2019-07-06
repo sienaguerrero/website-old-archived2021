@@ -12,7 +12,7 @@ callforaction:
     text: Learn about my accomplishments.
     style: alert
 image:
-    title: "/img_siena-hs-graduation.jpg"
+    title: "/img_siena-headshot-square.jpg"
     width: 400
 ---
 ## About Me
