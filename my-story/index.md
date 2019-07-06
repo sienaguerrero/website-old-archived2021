@@ -8,9 +8,12 @@ header:
     title: My Story
     image_fullwidth: "/headers/header_ecuador.jpg"
 callforaction: 
-    url: /my-accomplishments/
+    url: /my-story/my-accomplishments/
     text: Learn about my accomplishments.
     style: alert
+image:
+    title: "/img_siena-hs-graduation.jpg"
+    width: 400
 ---
 ## About Me
 I am a curious and self-directed learner who is disciplined, organized, and motivated. I attended 3 different high schools in 4 years and lived in 5 different U.S. states and 1 country outside the U.S. (Japan) during my childhood due to my father’s work, so I am used to starting over and becoming successful in new environments.
@@ -26,24 +29,23 @@ Human-Computer Interactions • Socially Assistive Robots • Computer Vision �
 Lived in 6 different US states • Lived abroad (Japan) • Military child • Ecuadorian family background
 
 ## My Timeline
-__1997__: Born in Corpus Christi, Texas
-__199?__: Father bought first Mac
-__20??__: Moved to Edmond, Oklahoma
-__20??__: Moved to Okinawa, Japan
-__20??__: Discovered Neopets, launching my interest in the internet and building websites. Made my first site on Geocities for displaying my pixel art.
-__20??__: Earliest record of me on the internet.
-__200?__: Moved to Albuquerque, New Mexico
-__????__: Get my first windows laptop
-__????__: Took first formal programming classes in Java and C++ during the summer.
-__2012__: Moved to Macon, Georgia.
-__20??__: 
-__2014__: Moved to Burke, Virginia
-__2015__: Graduated from High School
-__2016__: Started college at Harvey Mudd College, learned python
-__2017__: Declared major in Computer Science
-__2018__: Completed Mudd Wellness Greenhouse Project
-__2019__: Developed web app with team during Spring.
+__1997__: Born in Corpus Christi, Texas. \\
+<!---__199?__: Father bought first Mac \\ --->
+__1999__: Moved to Edmond, Oklahoma. \\
+__2003__: Moved to Okinawa, Japan. \\
+__2004__: Discovered Neopets, launching my interest in the internet and building websites. Made my first site on Geocities for displaying my pixel art. \\
+__2007__: Moved to Albuquerque, New Mexico. \\
+<!---__????__: Get my first windows laptop \\ --->
+__2010__: Took first formal programming classes in Java and C++ during the summer. \\
+__2012__: Moved to Macon, Georgia. \\
+<!---__20??__: \\ --->
+__2014__: Moved to Burke, Virginia. \\
+__2015__: Graduated from High School. \\
+__2016__: Traveled to Ecuador, my grandparents' homeland. Started college at Harvey Mudd College. Learned Python. \\
+__2017__: Ruby, my Goldendoodle, was born. Declared major in Computer Science. \\
+__2018__: Completed Mudd Wellness Greenhouse Project. \\
+__2019__: Developed web app with team during Spring. Started working on this website in summer.
 
 ## Developers who inspired me while making this site
-https://chris.beams.io
-Tania Rascia https://www.taniarascia.com
+[Chris Beams](https://chris.beams.io/) \\
+[Tania Rascia](https://www.taniarascia.com)

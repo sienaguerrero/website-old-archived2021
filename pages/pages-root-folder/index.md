@@ -13,22 +13,23 @@ description:
   text: ''
 widget1:
   title: "My Story"
-  url: 'http://sienaguerrero.github.io/website/my-story/'
-  image: /widgets/img_siena-child-computer.jpg
-  text: 'Computer Enthusiast, Computer Science Major at Harvey Mudd College'
+  url: '/my-story/'
+  image: /widgets/widget_siena-child-computer.jpg
+  text: 'HCI Enthusiast, Computer Science Major at Harvey Mudd College'
   button: "Learn more about my story"
 widget2:
   title: "My Projects"
-  url: 'http://sienaguerrero.github.io/website/my-projects/'
-  image: /widgets/img_mudd-greenhouse.jpg
+  url: '/my-projects/'
+  image: /widgets/widget_mudd-greenhouse.jpg
   text: 'Mix of various coding, building, and art experimentations.'
   button: "Learn more about my projects"
 widget3:
   title: "Contact Me"
-  url: 'http://sienaguerrero.github.io/website/contact/'
-  image: /widgets/img_siena+ruby-petrified-forest.jpg
+  url: '/contact/'
+  image: /widgets/widget_siena-ruby.jpg
   text: 'Currently looking for software internships in Fall 2019, Spring 2020, or Summer 2020.'
   button: "Send me a message"
+
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -51,9 +52,3 @@ permalink: /index.html
 homepage: true
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>

@@ -199,27 +199,9 @@
                 
                 
                   <li class="divider"></li>
-                  <li class="has-dropdown">
-                    <a  href="http://localhost:4000/my-projects/">My Projects</a>
-                      <ul class="dropdown">
-                        
-                          
-                          
-                            <li><a  href="/my-projects/hmc-greenhouse/">HMC Greenhouse</a></li>
-                          
-                        
-                          
-                          
-                            <li><a  href="/my-projects/groover/">Groover</a></li>
-                          
-                        
-                          
-                          
-                            <li><a  href="/my-projects/cuarenta/">cuarenta</a></li>
-                          
-                        
-                      </ul>
-                  </li>
+                  <li><a  href="http://localhost:4000/my-projects/">My Projects</a></li>
+   
+                
                 
               
             
@@ -236,11 +218,6 @@
                           
                           
                             <li><a  href="/downloads/SienaGuerrero-Resume.pdf">My Resume</a></li>
-                          
-                        
-                          
-                          
-                            <li><a  href="/useful-resources/">Useful Resources</a></li>
                           
                         
                       </ul>
@@ -273,11 +250,6 @@
                             <li><a  href="/essential-mac-apps/">My Essential Mac Apps</a></li>
                           
                         
-                          
-                          
-                            <li><a  href="/articles/archive/">Archive</a></li>
-                          
-                        
                       </ul>
                   </li>
                 
@@ -289,17 +261,9 @@
                 
                 
                   <li class="divider"></li>
-                  <li class="has-dropdown">
-                    <a  href="http://localhost:4000/blog/">Blog</a>
-                      <ul class="dropdown">
-                        
-                          
-                          
-                            <li><a  href="/blog/archive/">Archive</a></li>
-                          
-                        
-                      </ul>
-                  </li>
+                  <li><a  href="http://localhost:4000/blog/">Blog</a></li>
+   
+                
                 
               
             
@@ -456,17 +420,17 @@
               
                 
                   <li >
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact Me</a>
+                  </li>
+              
+                
+                  <li >
                     <a href="https://www.hmc.edu" target="_blank"  title="HMC Website">About Harvey Mudd College</a>
                   </li>
               
                 
                   <li >
                     <a href="https://www.cs.hmc.edu" target="_blank"  title="HMC Computer Science Website">About HMC Computer Science</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact Me</a>
                   </li>
               
               </ul>
@@ -497,7 +461,7 @@
             
               
                 <li class="network-favicon" >
-                  <a href="http://teresaibarra.github.io/" target="_blank"  title="Favicons by Teresa Ibarra">Favicons by Teresa Ibarra</a>
+                  <a href="http://teresaibarra.github.io/" target="_blank"  title="Favicons by Teresa Ibarra">Favicons by my friend, Teresa Ibarra</a>
                 </li>
             
               
@@ -536,8 +500,6 @@
               <li><a href="http://github.com/sienaguerrero" target="_blank" class="icon-github" title=""></a></li>
             
               <li><a href="http://linkedin.com/in/sienaguerrero" target="_blank" class="icon-linkedin" title=""></a></li>
-            
-              <li><a href="http://instagram.com/siena.guerrero" target="_blank" class="icon-instagram" title=""></a></li>
             
               <li><a href="" target="_blank" class="" title=""></a></li>
             

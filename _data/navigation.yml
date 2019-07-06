@@ -12,13 +12,13 @@
 - title: "My Projects"
   url: "/my-projects/"
   side: right
-  dropdown: 
-  - title: "HMC Greenhouse"
-    url: "/my-projects/hmc-greenhouse/"
-  - title: "Groover"
-    url: "/my-projects/groover/"
-  - title: "cuarenta"
-    url: "/my-projects/cuarenta/"
+  #dropdown: 
+  #- title: "HMC Greenhouse"
+  #  url: "/my-projects/hmc-greenhouse/"
+  #- title: "Groover"
+  #  url: "/my-projects/groover/"
+  #- title: "cuarenta"
+  #  url: "/my-projects/cuarenta/"
 
 - title: "Downloads"
   url: ""
@@ -26,9 +26,9 @@
   dropdown:
   - title: "My Resume"
     url: "/downloads/SienaGuerrero-Resume.pdf"
-  - title: "Useful Resources"
-    linky: no
-    url: "/useful-resources/"
+  #- title: "Useful Resources"
+  #  linky: no
+  #  url: "/useful-resources/"
 
 - title: Articles
   url: "/articles/"
@@ -40,15 +40,15 @@
     url: "/favorite-mac-apps/"
   - title: "My Essential Mac Apps"
     url: "/essential-mac-apps/"
-  - title: "Archive"
-    url: "/articles/archive/"
+  #- title: "Archive"
+    #url: "/articles/archive/"
 
 - title: Blog
   url: "/blog/"
   side: right
   dropdown:
-  - title: "Archive"
-    url: "/blog/archive/"
+  #- title: "Archive"
+    #url: "/blog/archive/"
 
 - title: "Contact"
   url: "/contact/"

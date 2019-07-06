@@ -10,6 +10,9 @@ callforaction:
     url: /my-story/
     text: Learn about my story.
     style: alert
+image:
+    title: "/img_siena-hmc-freshman.jpg"
+    width: 400
 ---
 This page contains information about my educational background, work experience, skills, and more.
 

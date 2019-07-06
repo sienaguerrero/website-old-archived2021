@@ -8,6 +8,10 @@
   url: "/downloads/SienaGuerrero-Resume.pdf"
   title: "Download My Resume"
 
+- name: "Contact Me"
+  url: "/contact/"
+  title: "Contact"
+  
 - name: "About Harvey Mudd College"
   url: "https://www.hmc.edu"
   title: "HMC Website"
@@ -15,10 +19,6 @@
 - name: "About HMC Computer Science"
   url: "https://www.cs.hmc.edu"
   title: "HMC Computer Science Website"
-
-- name: "Contact Me"
-  url: "/contact/"
-  title: "Contact"
 
 # - name: "RSS"
 #  url: "/feed.xml"
