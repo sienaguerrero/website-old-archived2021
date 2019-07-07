@@ -1,19 +1,23 @@
 ---
 layout: page
+subheadline: ""
 title: "My Computer+Website Setup"
+teaser: "Basic information on my computer and website configuration."
 permalink: "/my-computer+website-setup/"
-header: no
-image:
-    title: IMAGE_HERE
-    caption: CAPTION_HERE
-    caption_url: URL_HERE
-    show_meta: true
 categories:
     - article
     - config
 tags:
     - computer
     - setup
+header: no
+image:
+    title: IMAGE_HERE
+    caption: CAPTION_HERE
+    caption_url: URL_HERE
+    show_meta: true
+
+published: true    
 ---
 
 ### My Computer Setup

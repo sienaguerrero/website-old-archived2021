@@ -1,19 +1,22 @@
 ---
 layout: page
+subheadline: ""
 title: "How I Set Up My Mac"
+teaser: "Step-by-step overview of how I set up the workflow for my Mac. Applications, organization, and templates that I use on my computer."
 #permalink: "/my-computer-setup/"
-header: no
-image:
-    title: IMAGE_HERE
-    caption: CAPTION_HERE
-    caption_url: URL_HERE
-    show_meta: true
 categories:
     - article
     - config
 tags:
     - computer
     - setup
+header: no
+image:
+    title: IMAGE_HERE
+    caption: CAPTION_HERE
+    caption_url: URL_HERE
+    show_meta: true
+
 published: false
 ---
 

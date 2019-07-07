@@ -1,6 +1,8 @@
 ---
 layout: page
+subheadline: ""
 title: "Essential Mac Apps"
+teaser: "A big list of apps that I would install on any Mac I use."
 permalink: "/essential-mac-apps/"
 header: no
 image:
@@ -15,6 +17,8 @@ tags:
     - mac
     - apps
     - essentials
+
+published: true 
 ---
 Here's a list of my essential mac apps. While I don't *need* these apps per se, they make using my MacBook a lot easier.
 
