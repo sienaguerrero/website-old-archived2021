@@ -48,4 +48,5 @@ __2019__: Developed web app with team during Spring. Started working on this web
 
 ## Developers who inspired me while making this site
 [Chris Beams](https://chris.beams.io/) \\
-[Tania Rascia](https://www.taniarascia.com)
+[Tania Rascia](https://www.taniarascia.com) \\
+[Radon Rasborough](https://intuitiveexplanations.com)
