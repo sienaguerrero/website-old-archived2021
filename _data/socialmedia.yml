@@ -18,17 +18,17 @@
 #  class: icon-instagram
 #  title: ""
 
-- #name: Twitter
+#- name: Twitter
   #url: http://twitter.com/sienaguerrero
   #class: icon-twitter
   #title: ""
 
-- # name: Mixcloud
+#-  name: Mixcloud
   # url: http://www.mixcloud.com/phlow/
   # class: icon-cloud
   # title: "Mixe, was sonst?"
 
-- # name: Phlow YouTube Google+
+#-  name: Phlow YouTube Google+
   # url: https://plus.google.com/u/0/+Phlow
   # class: icon-googleplus
   # title: "YouTube Google+"

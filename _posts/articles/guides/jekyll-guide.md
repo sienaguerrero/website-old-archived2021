@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jekyll Guide"
+subheadline: "Coding"
 permalink: "/jekyll-guide/"
 header: no
 image:

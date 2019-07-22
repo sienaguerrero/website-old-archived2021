@@ -2,6 +2,7 @@
 layout: default
 format: frontpage
 ---
+
 <div id="header-home">
     <div class="row">
         <div class="small-12 columns">
@@ -9,23 +10,59 @@ format: frontpage
     </div><!-- /.row -->
 </div><!-- /#header-home -->
 
-<br>
-<!--<img src="images/SienaGuerreroHeadshot_Square.JPG" alt="Siena Guerrero Headshot" class="center" style="width:250px;height:250px;">-->
-<img src="images/img-siena-digital-portrait.jpg" alt="Siena Guerrero Headshot (Digital)" class="center" style="width:250px;height:250px;">
-
-<h3 align=center>Computer Science Major at Harvey Mudd College</h3>
-<br>
+<div class="row">
+    <div class="medium-4 columns t30">
+        <div class="radius b30 panel">
+            <img src="images/img-siena-digital-portrait.jpg" alt="Siena Guerrero Headshot (Digital)" style="width:250px">
+            <h3>Computer Science Major at Harvey Mudd College</h3></p>
+            <ul class="inline-list social-icons">
+                {% for social_item in site.data.socialmedia %}
+                    <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+                {% endfor %}
+            </ul>
+            <p><strong>Currently looking for software or data science internships in Fall 2019, Spring 2020, or Summer 2020. </strong>
+        </div>
+    </div><!-- /.medium-5.columns -->
+    
+    <div class="medium-8 columns t30">
+        <p>Hello! 
+        <p>My name is Siena, and I am a third-year student at Harvey Mudd College pursuing a degree in Computer Science.
+        <p>I am particularly interested in improving human interactions with technology in our digital world by bringing 
+            together new concepts and research from the fields of psychology, data science, and computing. I strongly believe 
+            in the need for experimental and creative ideas to drive innovation. 
+        <p>In pursuit of this goal, my studies focus on 
+        <a href = "https://en.wikipedia.org/wiki/Human–computer_interaction"><strong>human-computer interactions</strong></a>. The Association for Computing Machinery 
+        (ACM) defines human–computer interaction as "a discipline concerned with the design, evaluation and implementation 
+        of interactive computing systems for human use and with the study of major phenomena surrounding them".
+        <p>In the future, I desire a career in technology with an organization that shares my passion for powerful, efficient, 
+            and elegant design. You can see some of my projects illustrating my passions 
+        <a href = "https://sienaguerrero.com/my-projects/">here</a>. 
+        <p>Check out my resume and <a href = "mailto: sienaguerrero@gmail.com">send me an email</a> for inquiries!  <br> 
+             
+            {% comment %}
+            *
+            * First check, if there is a call for action-button
+            *
+            {% endcomment %}
+            {% if page.callforaction.url contains 'http' %}
+            {% assign url = '' %}
+            {% else %}
+            {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+            {% endif %}
+            {% if page.callforaction %}
+                <div class="row t10 b10">
+                    <div class="small-12 columns"> <!--text-center-->
+                        {{ page.callforaction.pretext }} 
+                        <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+                    </div><!-- /.small-12.columns -->
+                </div><!-- /.row -->
+            {% endif %}
+    </div>    
+</div><!-- /.row -->
+<!--
+    <img src="images/SienaGuerreroHeadshot_Square.JPG" alt="Siena Guerrero Headshot" class="center" style="width:250px;height:250px;">
     <div class="panel radius">
-            <p>Hello! 
-            <p>My name is Siena, and I am a third-year student at Harvey Mudd College pursuing a degree in Computer Science.
-            <p>I am particularly interested in improving human interactions with technology in our digital world by bringing 
-                together new concepts and research from the fields of psychology, data science, and computing. I strongly believe 
-                in the need for experimental and creative ideas to drive innovation. 
-            <p>To do so, my studies focus on 
-                <a href = "https://en.wikipedia.org/wiki/Human–computer_interaction"><strong>human-computer interactions</strong></a>. The Association for Computing Machinery 
-                (ACM) defines human–computer interaction as "a discipline concerned with the design, evaluation and implementation 
-                of interactive computing systems for human use and with the study of major phenomena surrounding them".
-            <p>In the future, I desire a career in technology with an organization that shares my passion for powerful, efficient, 
+        <p>In the future, I desire a career in technology with an organization that shares my passion for powerful, efficient, 
                 and elegant design. You can see some of my projects illustrating my passions 
                 <a href = "https://sienaguerrero.com/my-projects/">here</a>.
             <p>Check out my resume and <a href = "mailto: sienaguerrero@gmail.com">send me an email</a> for inquiries!
@@ -36,25 +73,8 @@ format: frontpage
                     {% endfor %}
             </ul>
         </div>
-    
+--->  
 
-{% comment %}
-*
-* First check, if there is a call for action-button
-*
-{% endcomment %}
-{% if page.callforaction.url contains 'http' %}
-{% assign url = '' %}
-{% else %}
-{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-{% endif %}
-{% if page.callforaction %}
-    <div class="row t60 b60">
-        <div class="small-12 text-center columns">
-            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-{% endif %}
 
 
 {% comment %}
@@ -62,7 +82,7 @@ format: frontpage
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
-<div class="row t60">
+<div class="row t30">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -88,28 +108,29 @@ format: frontpage
     <div class="row t30 b20 homepage">
         <div class="small-12 columns">
             {% for post in site.posts limit:1 %}
-            {% if post.image.homepage %}
-            <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
-            </p>
+                {% if post.image.homepage %}
+                <p>
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
+                </p>
 
-            {% if post.image.caption_url and post.image.caption %}
-            <p class="text-right caption">
-                <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
-            </p>
-            {% endif %}
-            {% else post.image.homepage == NULL %}
-            <h2>{{ site.data.language.new_blog_entries }}</h2>
-            {% endif %}
+                    {% if post.image.caption_url and post.image.caption %}
+                    <p class="text-right caption">
+                        <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
+                    </p>
+                    {% endif %}
+                {% else post.image.homepage == NULL %}
+                <h2>{{ site.data.language.new_blog_entries }}</h2>
+                {% endif %}
             {% endfor %}
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
-
     <div class="row">
         <div class="medium-6 columns">
             {% for post in site.posts limit:1 %}
-            {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
+            {% if post.subheadline %}
+                <p class="subheadline">{{ post.subheadline }}</p>
+            {% endif %}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
@@ -117,7 +138,6 @@ format: frontpage
             </p>
             {% endfor %}
         </div><!-- /.medium-5.columns -->
-
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>

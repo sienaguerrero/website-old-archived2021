@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: ""
+subheadline: "Configs"
 title: "My Computer+Website Setup"
 teaser: "Basic information on my computer and website configuration."
 permalink: "/my-computer+website-setup/"

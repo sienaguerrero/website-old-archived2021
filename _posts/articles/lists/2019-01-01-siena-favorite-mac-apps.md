@@ -1,5 +1,6 @@
 ---
 layout: page
+subheadline: "Applications"
 title: "Favorite Mac Apps"
 permalink: "/favorite-mac-apps/"
 teaser: "A smallish list of Mac apps that I love and use (almost) every day."

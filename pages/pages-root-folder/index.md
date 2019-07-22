@@ -15,19 +15,19 @@ widget1:
   title: "My Story"
   url: '/my-story/'
   image: /widgets/widget_siena-child-computer.jpg
-  text: 'HCI Enthusiast, Computer Science Major at Harvey Mudd College'
+  text: 'Lover of computers studying CS at Harvey Mudd College'
   button: "Learn more about my story"
 widget2:
   title: "My Projects"
   url: '/my-projects/'
   image: /widgets/widget_mudd-greenhouse.jpg
-  text: 'Mix of various coding, building, and art experimentations.'
+  text: 'Mix of various coding, design, and art experimentations.'
   button: "Learn more about my projects"
 widget3:
   title: "Contact Me"
   url: '/contact/'
   image: /widgets/widget_siena-ruby.jpg
-  text: 'Currently looking for software internships in Fall 2019, Spring 2020, or Summer 2020.'
+  text: 'Looking for software or data science internships.'
   button: "Send me a message"
 
 #

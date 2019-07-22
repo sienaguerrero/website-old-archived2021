@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: ""
+subheadline: "Applications"
 title: "Essential Mac Apps"
 teaser: "A big list of apps that I would install on any Mac I use."
 permalink: "/essential-mac-apps/"
