@@ -12,8 +12,12 @@
             <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
 
             <p class="shadow-black">
-              {{ site.description }} <br>
+              {{ site.description }} 
               <a href="{{ site.url }}{{ site.baseurl }}/my-story/">{{ site.data.language.learn_story }}</a>
+              
+              <!--
+              <a href="https://ko-fi.com/S6S8WFPN">Support Me on Ko-fi.</a>
+              -->
               <br>
               <br>
               Hosted on <a href='https://pages.github.com'>Github Pages,</a> 
@@ -69,12 +73,16 @@
             {{ site.credits }}
           </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
+          <section id="subfooter-right" class="small-6 medium-3 columns">
             <ul class="inline-list social-icons">
             {% for social_item in site.data.socialmedia %}
               <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
             </ul>
+          </section>
+
+          <section id="subfooter-right" class="small-6 medium-3 columns">
+            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#7e7e7e', 'S6S8WFPN');kofiwidget2.draw();</script> 
           </section>
         </nav>
       </div><!-- /#subfooter -->

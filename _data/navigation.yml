@@ -5,9 +5,9 @@
 - title: My Story
   url: "/my-story/"
   side: right
-  dropdown:
-  - title: My Accomplishments
-    url: "/my-story/my-accomplishments/"
+  #dropdown:
+  #- title: My Accomplishments
+  #  url: "/my-story/my-accomplishments/"
 
 - title: "My Projects"
   url: "/my-projects/"
@@ -20,12 +20,12 @@
   #- title: "cuarenta"
   #  url: "/my-projects/cuarenta/"
 
-- title: "Downloads"
-  url: ""
+- title: "My Resume"
+  url: "/downloads/SienaGuerrero-Resume.pdf"
   side: right
-  dropdown:
-  - title: "My Resume"
-    url: "/downloads/SienaGuerrero-Resume.pdf"
+  #dropdown:
+  #- title: "My Resume"
+    #url: "/downloads/SienaGuerrero-Resume.pdf"
   #- title: "Useful Resources"
   #  linky: no
   #  url: "/useful-resources/"
@@ -33,20 +33,20 @@
 - title: Articles
   url: "/articles/"
   side: right
-  dropdown:
+  #dropdown:
   #- title: "My Computer Setup"
   #  url: "/my-computer-setup/"
-  - title: "My Favorite Mac Apps"
-    url: "/favorite-mac-apps/"
-  - title: "My Essential Mac Apps"
-    url: "/essential-mac-apps/"
+  #- title: "My Favorite Mac Apps"
+    #url: "/favorite-mac-apps/"
+  #- title: "My Essential Mac Apps"
+    #url: "/essential-mac-apps/"
   #- title: "Archive"
     #url: "/articles/archive/"
 
-- title: Blog
-  url: "/blog/"
-  side: right
-  dropdown:
+#- title: Blog
+  #url: "/blog/"
+  #side: right
+  #dropdown:
   #- title: "Archive"
     #url: "/blog/archive/"
 
@@ -54,7 +54,7 @@
   url: "/contact/"
   side: right
 
-- # title: "Search"
+#- title: "Search"
   # url: "/search/"
   # side: right
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Command Line Guide"
+subheadline: "Coding"
 permalink: "/markdown-guide/"
 header: no
 image:
@@ -15,6 +16,7 @@ tags:
     - mac
     - commandline
     - terminal
+    
 published: false
 ---
 

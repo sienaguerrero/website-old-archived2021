@@ -151,18 +151,6 @@
           
           
         
-
-              
-
-          
-          
-        
-
-              
-
-          
-          
-        
         
       </ul>
 
@@ -179,17 +167,9 @@
                 
                 
                   <li class="divider"></li>
-                  <li class="has-dropdown">
-                    <a  href="http://localhost:4000/my-story/">My Story</a>
-                      <ul class="dropdown">
-                        
-                          
-                          
-                            <li><a  href="/my-story/my-accomplishments/">My Accomplishments</a></li>
-                          
-                        
-                      </ul>
-                  </li>
+                  <li><a  href="http://localhost:4000/my-story/">My Story</a></li>
+   
+                
                 
               
             
@@ -211,17 +191,9 @@
                 
                 
                   <li class="divider"></li>
-                  <li class="has-dropdown">
-                    <a  href="http://localhost:4000">Downloads</a>
-                      <ul class="dropdown">
-                        
-                          
-                          
-                            <li><a  href="/downloads/SienaGuerrero-Resume.pdf">My Resume</a></li>
-                          
-                        
-                      </ul>
-                  </li>
+                  <li><a  href="http://localhost:4000/downloads/SienaGuerrero-Resume.pdf">My Resume</a></li>
+   
+                
                 
               
             
@@ -231,32 +203,7 @@
                 
                 
                   <li class="divider"></li>
-                  <li class="has-dropdown">
-                    <a  href="http://localhost:4000/articles/">Articles</a>
-                      <ul class="dropdown">
-                        
-                          
-                          
-                            <li><a  href="/favorite-mac-apps/">My Favorite Mac Apps</a></li>
-                          
-                        
-                          
-                          
-                            <li><a  href="/essential-mac-apps/">My Essential Mac Apps</a></li>
-                          
-                        
-                      </ul>
-                  </li>
-                
-              
-            
-                  
-              
-              
-                
-                
-                  <li class="divider"></li>
-                  <li><a  href="http://localhost:4000/blog/">Blog</a></li>
+                  <li><a  href="http://localhost:4000/articles/">Articles</a></li>
    
                 
                 
@@ -272,10 +219,6 @@
    
                 
                 
-              
-            
-                  
-              
               
             
             
@@ -295,10 +238,6 @@
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
-
-
-
-
 
 
 
@@ -367,8 +306,12 @@
             <h5 class="shadow-black">About This Site</h5>
 
             <p class="shadow-black">
-              Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College. <br>
+              Personal website for Siena Guerrero. Digital designer, tinkerer, and lover of coding. Computer Science Major at Harvey Mudd College. 
               <a href="http://localhost:4000/my-story/">Learn more about my story.</a>
+              
+              <!--
+              <a href="https://ko-fi.com/S6S8WFPN">Support Me on Ko-fi.</a>
+              -->
               <br>
               <br>
               Hosted on <a href='https://pages.github.com'>Github Pages,</a> 
@@ -405,17 +348,17 @@
               
                 
                   <li >
-                    <a href="https://ko-fi.com/S6S8WFPN" target="_blank"  title="Support Me on Ko-fi">Support Me on Ko-fi</a>
+                    <a href="http://localhost:4000/contact/"  title="Contact">Contact Me</a>
+                  </li>
+              
+                
+                  <li >
+                    <a href="http://localhost:4000/blog/"  title="My Personal Blog">My Personal Blog</a>
                   </li>
               
                 
                   <li >
                     <a href="http://localhost:4000/downloads/SienaGuerrero-Resume.pdf"  title="Download My Resume">Download My Resume</a>
-                  </li>
-              
-                
-                  <li >
-                    <a href="http://localhost:4000/contact/"  title="Contact">Contact Me</a>
                   </li>
               
                 
@@ -487,7 +430,7 @@
             <p>Created with &hearts; by <a href="sienaguerrero.github.io">sienaguerrero</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive by Phlow</a>.</p>
           </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
+          <section id="subfooter-right" class="small-6 medium-3 columns">
             <ul class="inline-list social-icons">
             
               <li><a href="mailto:sienaguerrero@gmail.com" target="_blank" class="icon-mail" title=""></a></li>
@@ -496,13 +439,11 @@
             
               <li><a href="http://linkedin.com/in/sienaguerrero" target="_blank" class="icon-linkedin" title=""></a></li>
             
-              <li><a href="" target="_blank" class="" title=""></a></li>
-            
-              <li><a href="" target="_blank" class="" title=""></a></li>
-            
-              <li><a href="" target="_blank" class="" title=""></a></li>
-            
             </ul>
+          </section>
+
+          <section id="subfooter-right" class="small-6 medium-3 columns">
+            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#7e7e7e', 'S6S8WFPN');kofiwidget2.draw();</script> 
           </section>
         </nav>
       </div><!-- /#subfooter -->

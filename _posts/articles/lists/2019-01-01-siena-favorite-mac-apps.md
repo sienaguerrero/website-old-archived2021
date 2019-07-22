@@ -1,7 +1,9 @@
 ---
 layout: page
+subheadline: "Applications"
 title: "Favorite Mac Apps"
 permalink: "/favorite-mac-apps/"
+teaser: "A smallish list of Mac apps that I love and use (almost) every day."
 header: no
 image:
     title: IMAGE_HERE
@@ -15,6 +17,8 @@ tags:
     - mac
     - apps
     - favorites
+
+published: true 
 ---
 *Last updated: July 1, 2019*
 

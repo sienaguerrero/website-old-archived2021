@@ -1,16 +1,16 @@
 - menu_name: "Quick Links"
 
-- name: "Support Me on Ko-fi"
-  url: "https://ko-fi.com/S6S8WFPN"
-  title: "Support Me on Ko-fi"
+- name: "Contact Me"
+  url: "/contact/"
+  title: "Contact"
+
+- name: "My Personal Blog"
+  url: "/blog/"
+  title: "My Personal Blog"
 
 - name: "Download My Resume"
   url: "/downloads/SienaGuerrero-Resume.pdf"
   title: "Download My Resume"
-
-- name: "Contact Me"
-  url: "/contact/"
-  title: "Contact"
   
 - name: "About Harvey Mudd College"
   url: "https://www.hmc.edu"

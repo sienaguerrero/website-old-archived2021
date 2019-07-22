@@ -334,6 +334,29 @@ body.video cite { color: #fff; }
   }
 }
 
+.social-icons-frontpage {
+    margin-bottom: -10px !important;
+
+// Beware of SCSS-Syntax here
+  li {
+    padding: 0 0 20px 0;
+    text-align: center;
+  }
+  a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: $subfooter-bg;
+    background: $subfooter-color;
+    text-align: center;
+    &:hover {
+      background: $subfooter-bg;
+      color: #fff;
+    }
+  }
+}
+
 
 
 /* CSS-Classes to add margin at top or bottom

@@ -8578,99 +8578,124 @@ body.video cite {
   color: #fff;
 }
 
+/* line 337, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+.social-icons-frontpage {
+  margin-bottom: -10px !important;
+}
+/* line 341, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+.social-icons-frontpage li {
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+/* line 345, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+.social-icons-frontpage a {
+  font-size: 1.4375rem;
+  display: block;
+  width: 36px;
+  border-radius: 50%;
+  color: #313131;
+  background: #7E7E7E;
+  text-align: center;
+}
+/* line 353, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+.social-icons-frontpage a:hover {
+  background: #313131;
+  color: #fff;
+}
+
 /* CSS-Classes to add margin at top or bottom
 ------------------------------------------------------------------- */
-/* line 342, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 365, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t10 {
   margin-top: 10px !important;
 }
 
-/* line 343, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 366, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t15 {
   margin-top: 15px !important;
 }
 
-/* line 344, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 367, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t20 {
   margin-top: 20px !important;
 }
 
-/* line 345, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 368, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t30 {
   margin-top: 30px !important;
 }
 
-/* line 346, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 369, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t50 {
   margin-top: 50px !important;
 }
 
-/* line 347, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 370, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t60 {
   margin-top: 60px !important;
 }
 
-/* line 348, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 371, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t70 {
   margin-top: 70px !important;
 }
 
-/* line 349, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 372, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t80 {
   margin-top: 80px !important;
 }
 
-/* line 350, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 373, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .t90 {
   margin-top: 90px !important;
 }
 
-/* line 352, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 375, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .b15 {
   margin-bottom: 15px !important;
 }
 
-/* line 353, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 376, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .b20 {
   margin-bottom: 20px !important;
 }
 
-/* line 354, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 377, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .b30 {
   margin-bottom: 30px !important;
 }
 
-/* line 355, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 378, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .b60 {
   margin-bottom: 60px !important;
 }
 
-/* line 357, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 380, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .l15 {
   margin-left: 15px !important;
 }
 
-/* line 358, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 381, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .r15 {
   margin-right: 15px !important;
 }
 
-/* line 360, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 383, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .pl20 {
   padding-left: 20px !important;
 }
 
-/* line 361, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 384, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .pr5 {
   padding-right: 5px !important;
 }
 
-/* line 362, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 385, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .pr10 {
   padding-right: 10px !important;
 }
 
-/* line 363, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
+/* line 386, /Users/sienaguerrero/Documents/GitHub/website/_sass/_07_layout.scss */
 .pr20 {
   padding-right: 20px !important;
 }
@@ -8714,49 +8739,56 @@ body.video cite {
   border-radius: 3px;
 }
 
+/* line 44, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+.panel-home {
+  border: 1px;
+  padding: 0px;
+  border-radius: 3px;
+}
+
 /* Shadows
 ------------------------------------------------------------------- */
-/* line 49, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 53, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .shadow-no {
   text-shadow: rgba(0, 0, 0, 0) 0 0 0;
 }
 
-/* line 50, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 54, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .shadow-black {
   text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;
 }
 
-/* line 51, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 55, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .shadow-white {
   text-shadow: rgba(255, 255, 255, 0.498039) 0px 1px 2px;
 }
 
 /* Alerts
 ------------------------------------------------------------------- */
-/* line 58, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 62, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
-/* line 62, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 66, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box p {
   margin-bottom: 0;
 }
 
-/* line 65, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 69, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box a {
   text-shadow: 1px 1px 0px black;
   color: #fff;
   border-bottom: 1px dotted #fff;
 }
 
-/* line 70, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 74, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 73, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 77, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box.terminal {
   background: #3E3E3E;
   color: #fff;
@@ -8764,7 +8796,7 @@ body.video cite {
   font-family: "Lucida Console", Monaco, monospace;
 }
 
-/* line 79, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 83, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box.terminal::before {
   content: "$ ";
   color: #85D6CB;
@@ -8772,7 +8804,7 @@ body.video cite {
   margin: .25em .5em 0 0;
 }
 
-/* line 85, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 89, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .alert-box.text {
   background-color: #D7D7D7;
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.9);
@@ -8782,17 +8814,17 @@ body.video cite {
 
 /* Button
 ------------------------------------------------------------------- */
-/* line 97, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 101, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 button, .button {
   letter-spacing: 1px;
 }
 
-/* line 98, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 102, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 button.grey, .button.grey {
   background: #575757;
 }
 
-/* line 99, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 103, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 button.grey:hover,
 button.grey:focus,
 .button.grey:hover,
@@ -8802,28 +8834,28 @@ button.grey:focus,
 
 /* Side-Nav
 ------------------------------------------------------------------- */
-/* line 109, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 113, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .side-nav li.title {
   text-transform: uppercase;
 }
 
-/* line 110, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 114, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .side-nav li {
   border-top: 1px solid #CBCBCB;
 }
 
-/* line 111, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 115, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .side-nav li a:not(.button) {
   border-bottom: 0;
   padding: 0.4375rem 0rem;
 }
 
-/* line 112, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 116, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: #E4E4E4;
 }
 
-/* line 114, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 118, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .homepage p {
   margin: 0;
   padding: 0;
@@ -8832,32 +8864,32 @@ button.grey:focus,
 
 /* Accordion
 ------------------------------------------------------------------- */
-/* line 121, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 125, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 dl.accordion {
   border-top: 1px solid #D7D7D7;
 }
 
-/* line 122, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 126, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .accordion dd {
   border-bottom: 1px solid #D7D7D7;
 }
 
-/* line 123, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 127, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 dd.accordion-navigation span {
   padding-right: 12px;
 }
 
-/* line 124, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 128, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 dd.accordion-navigation span:before {
   content: "";
 }
 
-/* line 125, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 129, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 dd.accordion-navigation.active span:before {
   content: "";
 }
 
-/* line 126, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 130, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 dd.accordion-navigation.active span:before {
   content: "";
 }
@@ -8868,17 +8900,17 @@ dd.accordion-navigation.active span:before {
  * http://ressio.github.io/lazy-load-xt
  * (C) 2014 RESS.io
  * Licensed under MIT */
-/* line 137, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 141, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 img.lazy {
   display: none;
 }
 
-/* line 140, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 144, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .lazy-hidden {
   opacity: 0;
 }
 
-/* line 143, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
+/* line 147, /Users/sienaguerrero/Documents/GitHub/website/_sass/_09_elements.scss */
 .lazy-loaded {
   -webkit-transition: opacity 0.7s;
   -moz-transition: opacity 0.7s;

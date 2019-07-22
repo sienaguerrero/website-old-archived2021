@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jekyll Guide"
+subheadline: "Coding"
 permalink: "/jekyll-guide/"
 header: no
 image:
@@ -15,6 +16,7 @@ tags:
     - jekyll
     - sites
     - development
+    
 published: false
 ---
 
