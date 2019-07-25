@@ -6,7 +6,7 @@ permalink: "/my-projects/"
 header:
     title: My Projects
     image_fullwidth: "/headers/header_purple-flower.jpg"
-    #caption: CAPTION_HERE
+    caption: Flowering succulent in Newbury Park, CA during Summer 2018.
 ---
 This page contains information and demos for my various projects.
 

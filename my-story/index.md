@@ -7,9 +7,10 @@ permalink: "/my-story/"
 header:
     title: My Story
     image_fullwidth: "/headers/header_ecuador.jpg"
+    caption: On the road to Alausí, Ecuador, where my abuela was born.
 callforaction: 
     url: /my-story/my-accomplishments/
-    text: Learn about my accomplishments.
+    text: Learn about my education, work experience, and skills.
     style: alert
 image:
     title: "/img_siena-headshot-square.jpg"
