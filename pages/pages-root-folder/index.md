@@ -15,7 +15,7 @@ widget1:
   title: "My Story"
   url: '/my-story/'
   image: /widgets/widget_siena-child-computer.jpg
-  text: 'Lover of computers studying CS at Harvey Mudd College'
+  text: 'Lover of computers studying CS at Harvey Mudd College.'
   button: "Learn more about my story"
 widget2:
   title: "My Projects"
