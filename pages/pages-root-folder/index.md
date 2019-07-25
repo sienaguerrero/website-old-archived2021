@@ -8,7 +8,7 @@ layout: frontpage
 header:
   title: "Siena Maria Guerrero"
   image_fullwidth: /headers/header_ca-coast-ocean.jpg
-  caption: 'Shot along the CA coast, during my roadtrip in Summer 2018'.
+  caption: 'Shot along the CA coast, during my roadtrip in Summer 2018.'
 description:
   text: ''
 widget1:
