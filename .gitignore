@@ -1,12 +1,17 @@
 # Ignore Mac system files
 .DS_store
 
-# Ignore node_modules folder
+# Ignore WiP folders
 _drafts
+_ideas
 
-.sass-cache
 # Generated locally, should not be pushed
 _site
+.sass-cache
 
+# This helps Jekyll keep track of which files 
+# have not been modified since the site was last 
+# built, and which files will need to be regenerated 
+# on the next build. This file will not be included 
+# in the generated site.
 .jekyll-metadata
-# This helps Jekyll keep track of which files have not been modified since the site was last built, and which files will need to be regenerated on the next build. This file will not be included in the generated site.
