@@ -2,7 +2,7 @@
 layout: page
 title: "My Accomplishments"
 subheadline: "Education, Work, and Skills"
-ermalink: "/my-story/my-accomplishments/"
+permalink: "/my-story/my-accomplishments/"
 header:
     title: "My Accomplishments"
     image_fullwidth: "/headers/header_arizona-mountains.jpg"
