@@ -20,6 +20,8 @@ tags:
 
 published: true 
 ---
+*Last updated: July 1, 2019*
+
 Here's a list of my essential mac apps. While I don't *need* these apps per se, they make using my MacBook a lot easier.
 
 In total, this list comprises 58 apps with a total size of ~48GB. In no particular order:
