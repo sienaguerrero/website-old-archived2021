@@ -19,3 +19,8 @@
   url: "http://foundation.zurb.com/"
   class: "services-newsletter"
   title: "Built on Foundation"
+
+- name: "Personal Icon by Lydia Amora"
+  url: "https://twitter.com/lydiaamora"
+  class: "image-icon"
+  title: "Personal Icon by Lydia Amora"
